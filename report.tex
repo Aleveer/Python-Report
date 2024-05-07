@@ -39,7 +39,7 @@
 \fancyhead[L]{
  \begin{tabular}{rl}
     \begin{picture}(25,15)(0,0)
-    \put(0,-8){\includegraphics[width=8mm, height=8mm]{logoITSGUsmall.png}}
+    \put(0,-8){\includegraphics[width=8mm, height=8mm]{images/logoITSGUsmall.png}}
     %\put(0,-8){\epsfig{width=10mm,figure=hcmut.eps}}
    \end{picture}&
 	%\includegraphics[width=8mm, height=8mm]{hcmut.png} & %
@@ -112,7 +112,7 @@
 
 	\begin{figure}[h!]
 		\begin{center}
-			\includegraphics[width=3cm]{logoITSGU.png}
+			\includegraphics[width=3cm]{images/logoITSGU.png}
 		\end{center}
 	\end{figure}
 
@@ -457,12 +457,12 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	Sau đó hệ thống sẽ tự động cài đặt các thư viện cần thiết:
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=\textwidth]{Hình2-Libary.png}
+		\includegraphics[width=\textwidth]{images/Hình2-Libary.png}
 		\caption{Cài đặt thư viện MySQL}
 	\end{figure}
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=\textwidth]{Hình3-Libary.png}
+		\includegraphics[width=\textwidth]{images/Hình3-Libary.png}
 		\caption{Cài đặt thư viện Pygame (Do đã cài đặt nên ta sẽ không cần cài nữa)}
 	\end{figure}
 \end{flushleft}
@@ -472,8 +472,8 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	Sau khi cài đặt các thư viện cần thiết, ta tiến hành khai báo các thư viện cần dùng:
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=\textwidth]{Hình4-Libary.png}
-		\includegraphics{Hình5-Libary.png}
+		\includegraphics[width=\textwidth]{images/Hình4-Libary.png}
+		\includegraphics{images/Hình5-Libary.png}
 		\caption{Khai báo thư viện}
 	\end{figure}
 \end{flushleft}
@@ -487,7 +487,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	-Chúng ta có sơ đồ cơ sở dữ liệu như sau:
 	\begin{figure}[h]
 		\begin{center}
-			\includegraphics[width=\textwidth]{Hình6-Database.jpg}
+			\includegraphics[width=\textwidth]{images/Hình6-Database.jpg}
 			\caption{Sơ đồ cơ sở dữ liệu cho ứng dụng nghe nhạc}
 		\end{center}
 	\end{figure}
@@ -497,7 +497,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 
 	\begin{figure}
 		\centering
-		\includegraphics[width=\textwidth]{Hình7-ConnectDB.png}
+		\includegraphics[width=\textwidth]{images/Hình7-ConnectDB.png}
 		\caption{Khai báo thư viện và kết nối cơ sở dữ liệu thông qua class ConnectDB.py}
 		\begin{flushleft}
 			-Giải thích:
@@ -523,7 +523,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	bao gồm 3 lớp chính: DAL, BLL, và GUI.
 	\begin{figure}[h]
 		\centering
-		\includegraphics{Hình8-Architecture.png}
+		\includegraphics{images/Hình8-Architecture.png}
 		\caption{Kiến trúc ứng dụng nghe nhạc}
 	\end{figure}
 \end{flushleft}
@@ -533,15 +533,15 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	-Để xây dựng chức năng cho ứng dụng nghe nhạc, chúng ta sẽ tạo ra các class đối tượng (Object) tương ứng với các bảng trong cơ sở dữ liệu ở thư mục DTO (Data Transfer Object):
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=\textwidth]{AlbumDTO.png}
+		\includegraphics[width=\textwidth]{images/AlbumDTO.png}
 	\end{figure}
 \end{flushleft}
 \begin{flushleft}
 	\begin{figure}[h]
-		\includegraphics[width=\textwidth]{ArtistDTO.png}
-		\includegraphics[width=\textwidth]{PlayListDetailDTO.png}
-		\includegraphics[width=\textwidth]{PlayListDTO.png}
-		\includegraphics[width=\textwidth]{TrackDTO.png}
+		\includegraphics[width=\textwidth]{images/ArtistDTO.png}
+		\includegraphics[width=\textwidth]{images/PlayListDetailDTO.png}
+		\includegraphics[width=\textwidth]{images/PlayListDTO.png}
+		\includegraphics[width=\textwidth]{images/TrackDTO.png}
 	\end{figure}
 \end{flushleft}
 \clearpage
@@ -549,17 +549,17 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{flushleft}
 	\begin{figure}[h]
-		\includegraphics[width=\textwidth]{UserDTO.png}
+		\includegraphics[width=\textwidth]{images/UserDTO.png}
 		\caption{Các class DTO}
 	\end{figure}
 	-Sau khi chúng ta đã tạo các class DTO, chúng ta sẽ tiến hành tạo các class ở tầng DAL (Data Access Layer) để thực hiện các thao tác truy vấn, cập nhật dữ liệu từ cơ sở dữ liệu:
 \end{flushleft}
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{PlaylistDAL-1.png}
+	\includegraphics[width=\textwidth]{images/PlaylistDAL-1.png}
 \end{figure}
 \begin{figure}
-	\includegraphics[width=\textwidth]{PlaylistDAL-2.png}
+	\includegraphics[width=\textwidth]{images/PlaylistDAL-2.png}
 	\caption{Code cho class PlaylistDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
 \end{figure}
 
@@ -641,7 +641,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.9\textwidth]{albumDAL.png}
+	\includegraphics[width=0.9\textwidth]{images/albumDAL.png}
 	\caption{Code cho class AlbumDAL gồm các phương thức đọc, thêm, sửa}
 \end{figure}
 
@@ -685,7 +685,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{artistDAL.png}
+	\includegraphics[width=\textwidth]{images/artistDAL.png}
 	\caption{Code cho class ArtistDAL gồm các phương thức đọc, thêm, sửa}
 \end{figure}
 \begin{flushleft}
@@ -707,7 +707,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{PlayListDetail.png}
+	\includegraphics[width=\textwidth]{images/PlayListDetail.png}
 	\caption{Code cho class PLDetailDAL gồm 2 phương thức thêm và xóa}
 \end{figure}
 \begin{flushleft}
@@ -724,7 +724,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{trackDAl.png}
+	\includegraphics[width=\textwidth]{images/trackDAl.png}
 	\caption{Code cho class TrackDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
 \end{figure}
 \clearpage
@@ -749,7 +749,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{userDAL.png}
+	\includegraphics[width=\textwidth]{images/userDAL.png}
 	\caption{Code cho class UserDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
 \end{figure}
 \clearpage
@@ -775,7 +775,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	-Sau khi hoàn thành các class ở tầng DAL, chúng ta sẽ tiến hành tạo các class ở tầng BLL (Business Logic Layer) để thực hiện các thao tác xử lý logic cho ứng dụng.
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.9\textwidth]{AlbumBLL.png}
+		\includegraphics[width=0.9\textwidth]{images/AlbumBLL.png}
 		\caption{Code cho class AlbumBLL gồm các phương thức xử lý logic}
 	\end{figure}
 
@@ -784,8 +784,8 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{artistBLL.png}
-	\includegraphics[width=0.8\textwidth]{PlayListBLL.png}
+	\includegraphics[width=0.8\textwidth]{images/artistBLL.png}
+	\includegraphics[width=0.8\textwidth]{images/PlayListBLL.png}
 	\caption{Code cho class ArtistBLL, PlayListBLL gồm các phương thức xử lý logic}
 \end{figure}
 
@@ -793,15 +793,15 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{PLDetailBLL.png}
-	\includegraphics[width=0.8\textwidth]{TrackBLL.png}
+	\includegraphics[width=0.8\textwidth]{images/PLDetailBLL.png}
+	\includegraphics[width=0.8\textwidth]{images/TrackBLL.png}
 	\caption{Code cho class PLDetailBLL, TrackBLL gồm các phương thức xử lý logic}
 \end{figure}
 \clearpage
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{UserBLL.png}
+	\includegraphics[width=0.8\textwidth]{images/UserBLL.png}
 	\caption{Code cho class UserBLL gồm các phương thức xử lý logic}
 \end{figure}
 \begin{flushleft}
