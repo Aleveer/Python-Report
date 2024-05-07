@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715087407.70154 "c:/Users/Admin/Desktop/Projects/Python-Report/report.tex" "report.pdf" "report" 1715087410.31364 0
+["pdflatex"] 1715087560.31021 "c:/Users/Admin/Desktop/Projects/Python-Report/report.tex" "report.pdf" "report" 1715087563.01207 0
   "AlbumDTO.png" 1715060152 15264 e4eecb29f9622384f0f32221f95d32f1 ""
   "ArtistDTO.png" 1715060162 9763 ca969c1800159668d60fd87c15dabd29 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1715041942 91620 7a57a1f8766c3b0e3fb60c506b76c594 ""
@@ -226,13 +226,13 @@
   "UserDTO.png" 1715060207 12130 2ef1504775c5fff028cb446e92f32384 ""
   "albumDAL.png" 1715083756 107638 bfdb60765fd2f615e0f5724dd727924d ""
   "artistDAL.png" 1715085106 100250 e88de7981724c8231395a49806049d2a ""
-  "c:/Users/Admin/Desktop/Projects/Python-Report/report.tex" 1715087407 36836 d104cd1bf1b5cb3babd7039fd3eec2fb ""
+  "c:/Users/Admin/Desktop/Projects/Python-Report/report.tex" 1715087559 36802 d69c3bb2b0990b9e8a574045457bf1e8 ""
   "logoITSGU.png" 1675929159 291346 ecf5d7697177d13422e76953b191a8e7 ""
   "logoITSGUsmall.png" 1675940827 381421 ba16dc1685bcc46a6021b2ad38fe3689 ""
-  "report.aux" 1715087409 5524 daefae628767b1e5ee3f6409a367b9ec "pdflatex"
-  "report.out" 1715087409 3448 4c80dbdd72af83f5aa50b7def8fa7e43 "pdflatex"
-  "report.tex" 1715087407 36836 d104cd1bf1b5cb3babd7039fd3eec2fb ""
-  "report.toc" 1715087409 1676 7e3d3288e30d1106ed5f0d48cc9ea15e "pdflatex"
+  "report.aux" 1715087562 5524 daefae628767b1e5ee3f6409a367b9ec "pdflatex"
+  "report.out" 1715087562 3448 4c80dbdd72af83f5aa50b7def8fa7e43 "pdflatex"
+  "report.tex" 1715087559 36802 d69c3bb2b0990b9e8a574045457bf1e8 ""
+  "report.toc" 1715087562 1676 7e3d3288e30d1106ed5f0d48cc9ea15e "pdflatex"
   "trackDAl.png" 1715085514 140423 39dd8161c32915d630a5fe0429c0046f ""
   "userDAL.png" 1715086809 137740 428c28c6cd509af398fa6e5af2e63949 ""
   (generated)
