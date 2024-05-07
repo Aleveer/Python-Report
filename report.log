@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.15)  7 MAY 2024 07:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.15)  7 MAY 2024 10:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Admin/Desktop/LaTex/report.tex
-(c:/Users/Admin/Desktop/LaTex/report.tex
+**c:/Users/Admin/Desktop/LaTex/Python-Report/report.tex
+(c:/Users/Admin/Desktop/LaTex/Python-Report/report.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (D:\MikTex\tex/latex/base\article.cls
@@ -1099,7 +1099,7 @@ Package hyperref Info: Link coloring ON on input line 109.
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
-<logoITSGU.png, id=30, 803.0pt x 803.0pt>
+<logoITSGU.png, id=38, 803.0pt x 803.0pt>
 File: logoITSGU.png Graphic file (type png)
 <use logoITSGU.png>
 Package pdftex.def Info: logoITSGU.png  used on input line 120.
@@ -1116,56 +1116,55 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 128
  (D:\MikTex\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (58.91158pt too wide) in paragraph at lines 128--140
+Overfull \hbox (42.15338pt too wide) in paragraph at lines 128--140
  [] 
  []
 
 [1
 
-{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logoITSGU.png (PNG copy)>] (report.toc)
-\tf@toc=\write5
-\openout5 = `report.toc'.
-
-
+{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logoITSGU.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.167 \newpage
+l.251 \newpage
                [1]
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 178.
- (D:\MikTex\tex/latex/vntex\t5cmtt.fd
-File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 <logoITSGUsmall.png, id=53, 803.0pt x 803.0pt>
 File: logoITSGUsmall.png Graphic file (type png)
 <use logoITSGUsmall.png>
-Package pdftex.def Info: logoITSGUsmall.png  used on input line 251.
+Package pdftex.def Info: logoITSGUsmall.png  used on input line 264.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 264.
+ (D:\MikTex\tex/latex/vntex\t5cmtt.fd
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 LaTeX Font Info:    Font shape `T5/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 251.
- [2 <./logoITSGUsmall.png>]
-File: logoITSGUsmall.png Graphic file (type png)
-<use logoITSGUsmall.png>
-Package pdftex.def Info: logoITSGUsmall.png  used on input line 256.
-(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [3]
-File: logoITSGUsmall.png Graphic file (type png)
-<use logoITSGUsmall.png>
-Package pdftex.def Info: logoITSGUsmall.png  used on input line 260.
-(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-
- []
+(Font)              Font shape `T5/cmtt/m/n' tried instead on input line 264.
+ [2 <./logoITSGUsmall.png>] (report.toc)
+\tf@toc=\write5
+\openout5 = `report.toc'.
 
 File: logoITSGUsmall.png Graphic file (type png)
 <use logoITSGUsmall.png>
 Package pdftex.def Info: logoITSGUsmall.png  used on input line 266.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [3]
+File: logoITSGUsmall.png Graphic file (type png)
+<use logoITSGUsmall.png>
+Package pdftex.def Info: logoITSGUsmall.png  used on input line 389.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+File: logoITSGUsmall.png Graphic file (type png)
+<use logoITSGUsmall.png>
+Package pdftex.def Info: logoITSGUsmall.png  used on input line 406.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
 [5]
 File: logoITSGUsmall.png Graphic file (type png)
 <use logoITSGUsmall.png>
-Package pdftex.def Info: logoITSGUsmall.png  used on input line 276.
+Package pdftex.def Info: logoITSGUsmall.png  used on input line 416.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [6] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1175,20 +1174,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 92E5ADD7547040DD1995DAE805100742;2086.
+(rerunfilecheck)             Checksum: E83C4C8EF2E7304B895221063AF0B9E4;2501.
  ) 
 Here is how much of TeX's memory you used:
- 29182 strings out of 474424
- 531426 string characters out of 5758154
- 2218496 words of memory out of 5000000
- 50903 multiletter control sequences out of 15000+600000
- 578856 words of font info for 85 fonts, out of 8000000 for 9000
+ 28182 strings out of 474424
+ 519769 string characters out of 5758154
+ 1939496 words of memory out of 5000000
+ 49973 multiletter control sequences out of 15000+600000
+ 577572 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,24n,115p,1021b,1850s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/vntex/vnr/vnbx10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnbx12.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr5.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr8.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnti10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt8.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt9.pfb>
-Output written on report.pdf (7 pages, 709207 bytes).
+ 104i,24n,115p,1035b,716s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/vntex/vnr/vnbx10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnbx12.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr8.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnti10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt8.pfb>
+Output written on report.pdf (7 pages, 684749 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
