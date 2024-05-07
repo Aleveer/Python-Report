@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715063135.58218 "c:/Users/Admin/Desktop/LaTex/Python-Report/report.tex" "report.pdf" "report" 1715063137.81223 0
+["pdflatex"] 1715063161.69952 "c:/Users/Admin/Desktop/LaTex/Python-Report/report.tex" "report.pdf" "report" 1715063163.84769 0
   "AlbumDTO.png" 1715060152 15264 e4eecb29f9622384f0f32221f95d32f1 ""
   "ArtistDTO.png" 1715060162 9763 ca969c1800159668d60fd87c15dabd29 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1715041942 91620 7a57a1f8766c3b0e3fb60c506b76c594 ""
@@ -223,13 +223,13 @@
   "PlaylistDAL-2.png" 1715061666 40029 b8df359f8d276343a8c4e585b0c4b81f ""
   "TrackDTO.png" 1715060197 19085 4f03f404b2362959200e094faa025e73 ""
   "UserDTO.png" 1715060207 12130 2ef1504775c5fff028cb446e92f32384 ""
-  "c:/Users/Admin/Desktop/LaTex/Python-Report/report.tex" 1715063134 26983 aa2ea064b1cb04b26bf67e8585dc2ea4 ""
+  "c:/Users/Admin/Desktop/LaTex/Python-Report/report.tex" 1715063160 26852 0b44e2744f355b559400bcc542b3726f ""
   "logoITSGU.png" 1675929159 291346 ecf5d7697177d13422e76953b191a8e7 ""
   "logoITSGUsmall.png" 1675940827 381421 ba16dc1685bcc46a6021b2ad38fe3689 ""
-  "report.aux" 1715063137 4536 27ff3d33d1a4a5c63ace24128cdc50d6 "pdflatex"
-  "report.out" 1715063137 3448 4c80dbdd72af83f5aa50b7def8fa7e43 "pdflatex"
-  "report.tex" 1715063134 26983 aa2ea064b1cb04b26bf67e8585dc2ea4 ""
-  "report.toc" 1715063137 1676 7e3d3288e30d1106ed5f0d48cc9ea15e "pdflatex"
+  "report.aux" 1715063163 4536 27ff3d33d1a4a5c63ace24128cdc50d6 "pdflatex"
+  "report.out" 1715063163 3448 4c80dbdd72af83f5aa50b7def8fa7e43 "pdflatex"
+  "report.tex" 1715063160 26852 0b44e2744f355b559400bcc542b3726f ""
+  "report.toc" 1715063163 1676 7e3d3288e30d1106ed5f0d48cc9ea15e "pdflatex"
   (generated)
   "report.aux"
   "report.log"
