@@ -497,9 +497,23 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.9\textwidth]{Hình7-ConnectDB.png}
+		\includegraphics[width=\textwidth]{Hình7-ConnectDB.png}
 		\caption{Khai báo thư viện và kết nối cơ sở dữ liệu thông qua class ConnectDB.py}
+		\begin{flushleft}
+			-Giải thích:
+
+			+Class ConnectDB chứa hàm khởi tạo và hàm kết nối cơ sở dữ liệu gồm các thông số sau:
+			\begin{itemize}
+				\item host: địa chỉ IP của máy chủ cơ sở dữ liệu.
+				\item user: tên người dùng để truy cập cơ sở dữ liệu.
+				\item password: mật khẩu để truy cập cơ sở dữ liệu.
+				\item database: tên cơ sở dữ liệu.
+			\end{itemize}
+
+			+Nếu kết nối thành công, hàm kết nối sẽ trả về một đối tượng connection, ngược lại sẽ trả về None.
+		\end{flushleft}
 	\end{figure}
+
 \end{flushleft}
 \clearpage
 \newpage
