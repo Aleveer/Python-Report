@@ -463,12 +463,12 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=\textwidth]{Hình2-Libary.png}
-		\caption{Cài đặt các thư viện cần thiết}
+		\caption{Cài đặt thư viện MySQL}
 	\end{figure}
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=\textwidth]{Hình3-Libary.png}
-		\caption{Cài đặt các thư viện cần thiết (Do đã cài đặt nên ta sẽ không cần cài nữa)}
+		\caption{Cài đặt thư viện Pygame (Do đã cài đặt nên ta sẽ không cần cài nữa)}
 	\end{figure}
 \end{flushleft}
 \subsection{Các bước khởi tạo ứng dụng nghe nhạc}
@@ -518,6 +518,53 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 		\caption{Kiến trúc ứng dụng nghe nhạc}
 	\end{figure}
 \end{flushleft}
+
+\subsection{Xây dựng chức năng}
+\begin{flushleft}
+	-Để xây dựng chức năng cho ứng dụng nghe nhạc, chúng ta sẽ tạo ra các class đối tượng (Object) tương ứng với các bảng trong cơ sở dữ liệu ở thư mục DTO (Data Transfer Object):
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{AlbumDTO.png}
+	\end{figure}
+\end{flushleft}
+\begin{flushleft}
+	\begin{figure}[h]
+		\includegraphics[width=\textwidth]{ArtistDTO.png}
+		\includegraphics[width=\textwidth]{PlayListDetailDTO.png}
+		\includegraphics[width=\textwidth]{PlayListDTO.png}
+		\includegraphics[width=\textwidth]{TrackDTO.png}
+	\end{figure}
+\end{flushleft}
+\clearpage
+
+\newpage
+\begin{flushleft}
+	\begin{figure}[h]
+		\includegraphics[width=\textwidth]{UserDTO.png}
+		\caption{Các class DTO}
+	\end{figure}
+	-Sau khi chúng ta đã tạo các class DTO, chúng ta sẽ tiến hành tạo các class ở tầng DAL (Data Access Layer) để thực hiện các thao tác truy vấn, cập nhật dữ liệu từ cơ sở dữ liệu:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{PlaylistDAL-1.png}
+		\includegraphics[width=\textwidth]{PlaylistDAL-2.png}
+		\caption{Code cho class PlaylistDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
+	\end{figure}
+\end{flushleft}
+\begin{flushleft}
+	-Giải thích:
+	\begin{itemize}
+		\item Phương thức \textbf{getAllData(self)} trả về danh sách tất cả các playlist trong cơ sở dữ liệu.
+		\item Phương thức \textbf{getDataPlayListFromUserId(self, userID)} trả về thông tin chi tiết của một playlist dựa vào id.
+		\item Phương thức \textbf{generatePlayListID(self)} thêm một playlist mới vào cơ sở dữ liệu.
+		\item Phương thức \textbf{deletePlayList(playlistID)} xóa một playlist dựa vào id.
+		\item Phương thức \textbf{updatePlayList(playlist\_dto)} cập nhật thông tin của một playlist.
+	\end{itemize}
+\end{flushleft}
+
+
+
+\clearpage
 \newpage
 \begin{thebibliography}{80}
 

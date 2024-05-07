@@ -14,3 +14,4 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Khai báo thư viện}{8}{subsubsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.5}Sơ đồ cơ sở dữ liệu}{9}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Kiến trúc ứng dụng}{11}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Xây dựng chức năng}{11}{subsection.2.7}%
