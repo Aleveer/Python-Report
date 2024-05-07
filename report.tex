@@ -539,27 +539,231 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 		\caption{Các class DTO}
 	\end{figure}
 	-Sau khi chúng ta đã tạo các class DTO, chúng ta sẽ tiến hành tạo các class ở tầng DAL (Data Access Layer) để thực hiện các thao tác truy vấn, cập nhật dữ liệu từ cơ sở dữ liệu:
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=\textwidth]{PlaylistDAL-1.png}
-		\includegraphics[width=\textwidth]{PlaylistDAL-2.png}
-		\caption{Code cho class PlaylistDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
-	\end{figure}
 \end{flushleft}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{PlaylistDAL-1.png}
+	\includegraphics[width=\textwidth]{PlaylistDAL-2.png}
+	\caption{Code cho class PlaylistDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
+\end{figure}
+\clearpage
+
+\newpage
 \begin{flushleft}
 	-Giải thích:
 	\begin{itemize}
 		\item Phương thức \textbf{getAllData(self)} trả về danh sách tất cả các playlist trong cơ sở dữ liệu.
+		      \begin{flushleft}
+			      +Chi tiết hơn:
+
+			      -Đầu tiên, ta sẽ thiết lập kết nối đến cơ sở dữ liệu thông qua class ConnectDB.
+
+			      -Sau đó, ta sẽ tạo 1 cursor để thực hiện các thao tác truy vấn dữ liệu.
+
+			      -Cuối cùng, ta sẽ thực hiện truy vấn dữ liệu và trả về kết quả lưu về records
+		      \end{flushleft}
 		\item Phương thức \textbf{getDataPlayListFromUserId(self, userID)} trả về thông tin chi tiết của một playlist dựa vào id.
-		\item Phương thức \textbf{generatePlayListID(self)} thêm một playlist mới vào cơ sở dữ liệu.
+		      \begin{flushleft}
+			      +Chi tiết hơn:
+
+			      -Đầu tiên, ta sẽ thiết lập kết nối đến cơ sở dữ liệu thông qua class ConnectDB.
+
+			      -Sau đó, ta sẽ tạo 1 cursor để thực hiện các thao tác truy vấn dữ liệu.
+
+			      -Cuối cùng, ta sẽ thực hiện truy vấn dữ liệu và trả về kết quả lưu về records (trong trường hợp này, ta sẽ truy vấn dữ liệu dựa vào id của user).
+		      \end{flushleft}
+		\item Phương thức \textbf{generatePlayListID(self)} tạo một ID duy nhất cho playlist mới.
+		      \begin{flushleft}
+			      +Chi tiết hơn:
+
+			      -Đầu tiên, ta sẽ thiết lập kết nối đến cơ sở dữ liệu thông qua class ConnectDB.
+
+			      -Sau đó, ta sẽ tạo 1 cursor để thực hiện các thao tác truy vấn dữ liệu.
+
+			      -Lấy ra kết quả đầu tiên của query, kiểm tra xem nếu nó tồn tại thì
+			      lấy ID đó, loại bỏ ký tự đầu tiên (giả sử là 'PL'), chuyển phần còn lại thành số và cộng thêm một.
+			      Điều này đảm bảo rằng mỗi playlist có một ID duy nhất.
+
+			      Nếu không nhận được ID trả về, điều đó có nghĩa là chưa có playlist nào trong cơ sở dữ liệu.
+			      Vì vậy, nó đơn giản là đặt ID cho playlist mới là 1.
+
+			      Cuối cùng, nó thêm 'PL' vào đầu ID (để chỉ ra rằng đó là Playlist ID) và trả về nó.
+			      Đây sẽ là ID duy nhất cho playlist mới.
+		      \end{flushleft}
+		\item Phương thức \textbf{insert(self, playlist\_dto)} thêm một playlist mới vào cơ sở dữ liệu.
+		      \begin{flushleft}
+			      +Chi tiết hơn:
+
+			      -Đầu tiên, ta sẽ thiết lập kết nối đến cơ sở dữ liệu thông qua class ConnectDB.
+
+			      -Sau đó, ta sẽ tạo 1 cursor để thực hiện các thao tác truy vấn dữ liệu.
+
+			      -Sau khi chuẩn bị xong câu lệnh, nó được thực thi bằng cách sử dụng con trỏ (Cursor). Điều này thêm playlist mới vào cơ sở dữ liệu.
+
+			      -Tuy nhiên, chỉ thực thi câu lệnh không đủ. Các thay đổi cần được lưu lại. Đó là lý do tại sao self.con.commit() được sử dụng - nó lưu lại bất kỳ thay đổi nào được thực hiện kể từ lần cuối cùng thay đổi được lưu lại.
+
+			      -Cuối cùng, con trỏ được đóng. Điều này được thực hiện khi chúng ta đã hoàn thành với nó, để giải phóng tài nguyên.
+		      \end{flushleft}
 		\item Phương thức \textbf{deletePlayList(playlistID)} xóa một playlist dựa vào id.
+		      \begin{flushleft}
+			      +Chi tiết hơn:
+
+			      -Đầu tiên, ta thiết lập kết nối và tạo con trỏ (Cursor).
+
+			      -Sau đó, ta thực thi câu lệnh DELETE để xóa playlist dựa vào id và đếm số lượng dòng bị ảnh hưởng.
+
+			      -Nếu số lượng dòng bị ảnh hưởng lớn hơn 0, điều đó có nghĩa là playlist đã được xóa thành công.
+
+			      -Cuối cùng, ta lưu lại các thay đổi và đóng con trỏ.
+		      \end{flushleft}
 		\item Phương thức \textbf{updatePlayList(playlist\_dto)} cập nhật thông tin của một playlist.
+		      \begin{flushleft}
+			      +Cách thức hoạt động tương tự như phương thức insert, nhưng thay vì thêm mới, nó sẽ cập nhật thông tin của playlist đã tồn tại.
+		      \end{flushleft}
 	\end{itemize}
 \end{flushleft}
 
-
+\clearpage
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{albumDAL.png}
+	\caption{Code cho class AlbumDAL gồm các phương thức đọc, thêm, sửa}
+\end{figure}
 
 \clearpage
+\newpage
+\begin{flushleft}
+	-Giải thích:
+	\begin{itemize}
+		\item Phương thức \textbf{getAllData(self)} trả về danh sách tất cả các album trong cơ sở dữ liệu.
+		      \begin{flushleft}
+			      + Tương tự như PlayListDAL chỉ khác là trả về danh sách album.
+		      \end{flushleft}
+		\item Phương thức \textbf{generateAlbumID(self, albumID)} tạo một ID duy nhất cho album mới.
+		      \begin{flushleft}
+			      +Chi tiết hơn:
+
+			      -Đầu tiên, chúng ta thiết lập kết nối với cơ sở dữ liệu.
+
+			      -Sau đó, chúng ta yêu cầu cơ sở dữ liệu trả về ID của album được thêm gần đây nhất. Chúng ta làm điều này bằng cách chạy một lệnh yêu cầu "cho tôi albumID từ bảng album, nhưng hãy đảm bảo rằng bạn đưa cho tôi cái cuối cùng bạn có".
+
+			      -Bây giờ, có hai khả năng: hoặc chúng ta nhận được một ID trả về, hoặc không. Nếu chúng ta nhận được một ID, điều đó có nghĩa là đã có một số album trong cơ sở dữ liệu. Vì vậy, chúng ta lấy ID đó, loại bỏ hai ký tự đầu tiên (giả sử là 'AT'), chuyển phần còn lại thành một số và cộng thêm một vào nó. Điều này đảm bảo rằng mỗi album có một ID duy nhất.
+
+			      -Nếu chúng ta không nhận được ID trả về, điều đó có nghĩa là chưa có album nào trong cơ sở dữ liệu. Vì vậy, chúng ta đơn giản là đặt ID cho album mới là 1.
+
+			      -Cuối cùng, chúng ta thêm 'AT' vào đầu ID (để chỉ ra rằng đó là Album ID), và trả về nó. Đây sẽ là ID duy nhất cho album mới.
+		      \end{flushleft}
+		\item Phương thức \textbf{insert(self, album\_dto)} tạo một album mới trong cơ sở dữ liệu.
+		      \begin{flushleft}
+			      +Tương tự như hàm insert của PlayListDAL chỉ khác là thêm mới album.
+		      \end{flushleft}
+		\item Phương thức \textbf{update(album\_dto)} sửa thông tin của một album.
+		      \begin{flushleft}
+			      +Tương tự như hàm update của PlayListDAL chỉ khác là sửa album.
+		      \end{flushleft}
+		\item Phương thức \textbf{getTracksFromAlbumID(self, albumID)} lấy ra danh sách các bài hát theo albumID.
+		      \begin{flushleft}
+			      +Tương tự như hàm getDataPlayListFromUserId của PlayListDAL chỉ khác là lấy ra danh sách bài hát theo albumID.
+		      \end{flushleft}
+	\end{itemize}
+\end{flushleft}
+\clearpage
+
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{artistDAL.png}
+	\caption{Code cho class ArtistDAL gồm các phương thức đọc, thêm, sửa}
+\end{figure}
+\begin{flushleft}
+	-Giải thích:
+	\begin{itemize}
+		\item Phương thức \textbf{getAllData(self)} trả về danh sách tất cả các nghệ sĩ trong cơ sở dữ liệu.
+
+		\item Phương thức \textbf{generateArtistID(self)} tạo một ID duy nhất cho nghệ sĩ mới.
+
+		\item Phương thức \textbf{insert(self, artist\_dto)} thêm một nghệ sĩ mới vào cơ sở dữ liệu.
+
+		\item Phương thức \textbf{update(artist\_dto)} sửa thông tin của một nghệ sĩ.
+
+		\item Phương thức \textbf{getTracksFromArtistID(self, artistID)} lấy ra danh sách các bài hát theo artistID.
+
+	\end{itemize}
+\end{flushleft}
+\clearpage
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{PlayListDetail.png}
+	\caption{Code cho class PLDetailDAL gồm 2 phương thức thêm và xóa}
+\end{figure}
+\begin{flushleft}
+	-Giải thích:
+	\begin{itemize}
+		\item Phương thức \textbf{insertTracktoPlayList(self, pldetail\_dto)} thêm một bài hát vào playlist.
+
+		\item Phương thức \textbf{deleteTrackInPlayList(playlistID, trackID)} xóa một bài hát khỏi playlist theo trackID.
+
+	\end{itemize}
+\end{flushleft}
+
+\clearpage
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{trackDAl.png}
+	\caption{Code cho class TrackDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
+\end{figure}
+\clearpage
+\newpage
+\begin{flushleft}
+	-Giải thích:
+	\begin{itemize}
+		\item Phương thức \textbf{getAllData(self)} trả về danh sách tất cả các bài hát trong cơ sở dữ liệu.
+
+		\item Phương thức \textbf{generateTrackID(self)} tạo một ID duy nhất cho bài hát mới.
+
+		\item Phương thức \textbf{insert(self, track\_dto)} thêm một bài hát mới vào cơ sở dữ liệu.
+
+		\item Phương thức \textbf{update(track\_dto)} sửa thông tin của một bài hát.
+
+		\item Phương thức \textbf{deleteTrack(trackID)} xóa một bài hát dựa vào id.
+
+	\end{itemize}
+\end{flushleft}
+\clearpage
+
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{userDAL.png}
+	\caption{Code cho class UserDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
+\end{figure}
+\clearpage
+\newpage
+\begin{flushleft}
+	-Giải thích:
+	\begin{itemize}
+		\item Phương thức \textbf{getAllData(self)} trả về danh sách tất cả các user trong cơ sở dữ liệu.
+
+		\item Phương thức \textbf{generateUserID(self)} tạo một ID duy nhất cho user mới.
+
+		\item Phương thức \textbf{checkUsernameAndPass(self, user\_dto)} kiểm tra username và password của user.
+
+		\item Phương thức \textbf{insert(self, user\_dto)} thêm một user mới vào cơ sở dữ liệu.
+
+		\item Phương thức \textbf{update(self, user\_dto)} sửa thông tin của một user.
+
+		\item Phương thức \textbf{checkUsername(self, userID)} kiểm tra username của user.
+
+		\item Phương thức \textbf{resetPassword(self, username, password)} reset password của user.
+
+	\end{itemize}
+\end{flushleft}
+\clearpage
+
 \newpage
 \begin{thebibliography}{80}
 
