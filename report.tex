@@ -495,9 +495,9 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	-Sau khi chúng ta đã có sơ đồ cơ sở dữ liệu, chúng ta sẽ tiến hành kết nối cơ sở dữ liệu với ứng dụng thông qua thư viện MySQL Connector
 	và thực hiện các thao tác truy vấn, cập nhật dữ liệu từ cơ sở dữ liệu.
 
-	\begin{figure}[h]
+	\begin{figure}
 		\centering
-		\includegraphics[width=\textwidth]{Hình7-ConnectDB.png}
+		\includegraphics[width=0.9\textwidth]{Hình7-ConnectDB.png}
 		\caption{Khai báo thư viện và kết nối cơ sở dữ liệu thông qua class ConnectDB.py}
 	\end{figure}
 \end{flushleft}
@@ -540,16 +540,15 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	\end{figure}
 	-Sau khi chúng ta đã tạo các class DTO, chúng ta sẽ tiến hành tạo các class ở tầng DAL (Data Access Layer) để thực hiện các thao tác truy vấn, cập nhật dữ liệu từ cơ sở dữ liệu:
 \end{flushleft}
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{PlaylistDAL-1.png}
+\end{figure}
+\begin{figure}
 	\includegraphics[width=\textwidth]{PlaylistDAL-2.png}
 	\caption{Code cho class PlaylistDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
 \end{figure}
-\clearpage
 
-\newpage
 \begin{flushleft}
 	-Giải thích:
 	\begin{itemize}
@@ -628,12 +627,10 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{albumDAL.png}
+	\includegraphics[width=0.9\textwidth]{albumDAL.png}
 	\caption{Code cho class AlbumDAL gồm các phương thức đọc, thêm, sửa}
 \end{figure}
 
-\clearpage
-\newpage
 \begin{flushleft}
 	-Giải thích:
 	\begin{itemize}
@@ -761,9 +758,48 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 		\item Phương thức \textbf{resetPassword(self, username, password)} reset password của user.
 
 	\end{itemize}
+	-Sau khi hoàn thành các class ở tầng DAL, chúng ta sẽ tiến hành tạo các class ở tầng BLL (Business Logic Layer) để thực hiện các thao tác xử lý logic cho ứng dụng.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.9\textwidth]{AlbumBLL.png}
+		\caption{Code cho class AlbumBLL gồm các phương thức xử lý logic}
+	\end{figure}
+
 \end{flushleft}
 \clearpage
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{artistBLL.png}
+	\includegraphics[width=0.8\textwidth]{PlayListBLL.png}
+	\caption{Code cho class ArtistBLL, PlayListBLL gồm các phương thức xử lý logic}
+\end{figure}
 
+\clearpage
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{PLDetailBLL.png}
+	\includegraphics[width=0.8\textwidth]{TrackBLL.png}
+	\caption{Code cho class PLDetailBLL, TrackBLL gồm các phương thức xử lý logic}
+\end{figure}
+\clearpage
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{UserBLL.png}
+	\caption{Code cho class UserBLL gồm các phương thức xử lý logic}
+\end{figure}
+\begin{flushleft}
+	-Sau khi hoàn thành việc thiết lập các phương thức xử lý tại các tầng BLL và DAL,
+	chúng ta sẽ tiếp tục tạo các lớp (class) tại tầng GUI (Graphical User Interface). Mục đích của việc này là để thực hiện các thao tác giao diện cho ứng dụng.
+
+	-Đồng thời, chúng ta sẽ sử dụng thư viện Tkinter để tạo giao diện cho ứng dụng.
+	Thư viện Pygame.mixer sẽ được sử dụng để phát nhạc trong ứng dụng.
+
+	-Ngoài ra, chúng ta cũng sẽ sử dụng thư viện socket để tạo kết nối giữa client và server.
+	Điều này giúp cho việc truyền dữ liệu giữa client và server trở nên dễ dàng hơn.
+\end{flushleft}
 \newpage
 \begin{thebibliography}{80}
 
