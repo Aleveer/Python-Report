@@ -5,4 +5,12 @@
 \contentsline {subsection}{\numberline {1.4}Nội dung đề tài}{4}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Xây dựng ứng dụng nghe nhạc trên Python bằng các thư viện của Python}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Đôi nét về ứng dụng nghe nhạc}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Vẽ biều đồ tần xuất tương đối tích lũy số sinh viên theo phân nhóm outcome các sinh viên có câu trả lời sai trong kỳ thi cuối kỳ trong các nhóm}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Tổng quan và phân tích}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Khảo sát}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Phân tích}{6}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Xây dựng ứng dụng nghe nhạc}{8}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Cài đặt các thư viện cần thiết}{8}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.4}Các bước khởi tạo ứng dụng nghe nhạc}{8}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Khai báo thư viện}{8}{subsubsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.5}Sơ đồ cơ sở dữ liệu}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Kiến trúc ứng dụng}{11}{subsection.2.6}%

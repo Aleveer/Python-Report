@@ -384,7 +384,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 				            \item Phân tích yêu cầu
 				            \item Thiết kế kiến trúc
 				            \item Thiết kế cơ sở dữ liệu
-				            \item Xây dựng giao diện
+				            \item Xây dựng
 				            \item Xây dựng chức năng
 				            \item Kiểm thử và sửa lỗi
 			            \end{itemize}
@@ -395,16 +395,130 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \section{Xây dựng ứng dụng nghe nhạc trên Python bằng các thư viện của Python}
 \subsection{Đôi nét về ứng dụng nghe nhạc}
 \begin{flushleft}
-	Ứng dụng nghe nhạc là một ứng dụng giúp người dùng có thể tìm kiếm, phát nhạc từ cơ sở dữ liệu, tạo danh sách phát, tạo playlist, \dots
+	-Ứng dụng nghe nhạc không chỉ là một công cụ giúp người dùng tìm kiếm và phát nhạc từ cơ sở dữ liệu. Nó còn là một nền tảng giúp người dùng trải nghiệm âm nhạc theo cách riêng của họ.
+
+	-Tìm kiếm và phát nhạc: Ứng dụng nghe nhạc cho phép người dùng tìm kiếm bài hát, album, nghệ sĩ yêu thích của họ từ một cơ sở dữ liệu lớn. Người dùng có thể phát nhạc trực tiếp từ ứng dụng, điều chỉnh âm lượng, chọn chế độ phát (như phát lại, lặp lại, ngẫu nhiên), và xem thông tin chi tiết về bài hát đang phát.
+
+	-Tạo danh sách phát: Người dùng có thể tạo danh sách phát cá nhân, thêm bài hát vào danh sách phát, sắp xếp thứ tự các bài hát trong danh sách phát, và chia sẻ danh sách phát với bạn bè. Điều này giúp người dùng tổ chức bộ sưu tập âm nhạc của họ theo cách mà họ muốn.
+
+	-Tạo playlist: Playlist là một tính năng mạnh mẽ giúp người dùng tổ chức và phát nhạc theo chủ đề, tâm trạng, hoặc sự kiện. Người dùng có thể tạo playlist, thêm bài hát vào playlist, và chia sẻ playlist với cộng đồng.
+
+	-Khám phá âm nhạc mới: Ứng dụng nghe nhạc thường có tính năng khám phá, giúp người dùng tìm kiếm và khám phá âm nhạc mới dựa trên sở thích âm nhạc của họ. Điều này giúp người dùng mở rộng bộ sưu tập âm nhạc của họ và khám phá những nghệ sĩ, thể loại mới.
+
+	-Như vậy, ứng dụng nghe nhạc không chỉ giúp người dùng nghe nhạc, mà còn giúp họ trải nghiệm âm nhạc theo cách riêng của họ, khám phá âm nhạc mới, và chia sẻ niềm đam mê âm nhạc với cộng đồng. Đây chính là lý do mà việc phát triển ứng dụng nghe nhạc sử dụng Python trở nên hấp dẫn và thú vị. Python với khả năng mạnh mẽ và linh hoạt của mình, cho phép chúng ta tạo ra những ứng dụng nghe nhạc phong phú và đa dạng, phục vụ cho nhu cầu ngày càng đa dạng của người dùng.
 
 \end{flushleft}
-\subsection{Vẽ biều đồ tần xuất tương đối tích lũy số sinh viên theo phân nhóm outcome các sinh viên có câu trả lời sai trong kỳ thi cuối kỳ trong các nhóm}
-\begin{itemize}
-	\item \large\bfseries\underline {Phần code R} \newline
-\end{itemize}
+\subsection{Tổng quan và phân tích}
+\subsubsection{Khảo sát}
+\begin{flushleft}
+	-Ứng dụng nghe nhạc là một nền tảng trực tuyến phổ biến, đặc biệt trong cộng đồng người yêu âm nhạc và các nhóm cộng đồng trực tuyến khác.
+	Một trong những lợi ích của ứng dụng nghe nhạc là tính linh hoạt và đa dạng của nó. Người dùng có thể tùy chỉnh các danh sách phát và quyền truy cập cho từng bài hát,
+	tạo ra các thể loại khác nhau để quản lý bộ sưu tập âm nhạc và tùy chỉnh các cài đặt âm thanh cho phù hợp với nhu cầu của mình.
 
+	-Việc tạo ứng dụng nghe nhạc cũng là một lợi ích lớn, giúp việc quản lý bộ sưu tập âm nhạc trở nên dễ dàng hơn và giảm thiểu
+	thời gian và công sức cho các hoạt động quản lý. Ứng dụng có thể tự động thực hiện các nhiệm vụ như kiểm tra và cập nhật thông tin bài hát,
+	quản lý danh sách phát và nhiều tính năng khác \dots
+
+	-Tuy nhiên, ứng dụng nghe nhạc cũng có một số hạn chế như việc không thể tùy chỉnh giao diện của ứng dụng hoặc các danh sách phát quá nhiều.
+\end{flushleft}
+\subsubsection{Phân tích}
 \newpage
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|l|p{10cm}|}
+		\hline
+		\textbf{Thư viện} & \textbf{Mô tả}                                                                                                                                                                                                                                                                                                                                                                                                                                                            \\
+		\hline
+		socket            & Thư viện socket trong Python cung cấp các hàm để tạo và quản lý kết nối mạng. Cho phép tạo ra các ứng dụng mạng phức tạp như truyền file, gửi và nhận dữ liệu qua mạng, và nhiều hơn nữa. Thư viện socket hỗ trợ các giao thức mạng phổ biến như TCP và UDP, cho phép lập trình viên tương tác với các máy chủ và thiết bị khác trên mạng. Bằng cách sử dụng thư viện socket, lập trình viên có thể xây dựng các ứng dụng mạng linh hoạt và mạnh mẽ trên nền tảng Python. \\
+		\hline
+		os                & Thư viện os trong Python cung cấp các hàm để tương tác với hệ điều hành. Cho phép thực hiện các tác vụ như quản lý file, thư mục, và các tác vụ liên quan đến hệ điều hành khác. Thư viện os giúp lập trình viên tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với hệ điều hành.                                                                                                                                                                                      \\
+		\hline
+		sys               & Thư viện sys trong Python cung cấp các hàm để tương tác với hệ thống Python. Cho phép truy cập vào các biến và hàm của hệ thống, quản lý luồng dữ liệu vào ra, và thực hiện các tác vụ liên quan đến hệ thống khác. Thư viện sys giúp lập trình viên tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với hệ thống Python.                                                                                                                                               \\
+		\hline
+		threading         & Thư viện threading trong Python cung cấp các hàm để tạo và quản lý các luồng. Cho phép tạo ra các ứng dụng đa luồng, tận dụng tối đa khả năng của CPU và tăng hiệu suất của ứng dụng. Thư viện threading giúp lập trình viên tạo ra các ứng dụng đa luồng mạnh mẽ và hiệu quả.                                                                                                                                                                                            \\
+		\hline
+		mysql.connector   & Thư viện mysql.connector trong Python cung cấp các hàm để tương tác với cơ sở dữ liệu MySQL. Cho phép tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với cơ sở dữ liệu, thực hiện các tác vụ như truy vấn, cập nhật, và quản lý dữ liệu. Thư viện mysql.connector giúp lập trình viên tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với cơ sở dữ liệu MySQL.                                                                                                       \\
+		\hline
+		pygame            & Thư viện pygame trong Python cung cấp các hàm để tạo ra các ứng dụng đồ họa, bao gồm các trò chơi và các ứng dụng đa phương tiện khác. Tạo ra các ứng dụng có đồ họa mạnh mẽ, tương tác với người dùng qua các sự kiện đầu vào, và tạo ra các hiệu ứng âm thanh và hình ảnh. Thư viện pygame giúp lập trình viên tạo ra các ứng dụng đồ họa mạnh mẽ và tương tác.                                                                                                         \\
+		\hline
+		tkinter           & Thư viện tkenter trong Python cung cấp các hàm để tạo ra các ứng dụng đồ họa, bao gồm các trò chơi và các ứng dụng đa phương tiện khác. Tạo ra các ứng dụng có đồ họa mạnh mẽ, tương tác với người dùng qua các sự kiện đầu vào, và tạo ra các hiệu ứng âm thanh và hình ảnh. Thư viện tkenter giúp lập trình viên tạo ra các ứng dụng đồ họa mạnh mẽ và tương tác.                                                                                                       \\
+		\hline
+	\end{tabular}
+	\caption{Các thư viện Python được sử dụng cho việc phát triển ứng dụng}
+	\label{tab:my_label}
+\end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\newpage
+\subsection{Xây dựng ứng dụng nghe nhạc}
+\subsubsection{Cài đặt các thư viện cần thiết}
+\begin{flushleft}
+	-Visual Studio Code (64-bit).
+
+	-Điều đầu tiên cần làm để lập trình ứng dụng nghe nhạc trên Python là cài đặt các thư viện cần thiết.
+	Các thư viện này giúp chúng ta tương tác với hệ thống, tạo ra các ứng dụng đa luồng,
+	tương tác với cơ sở dữ liệu, và tạo ra các ứng dụng đồ họa mạnh mẽ.
+
+	Sau đó hệ thống sẽ tự động cài đặt các thư viện cần thiết:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{Hình2-Libary.png}
+		\caption{Cài đặt các thư viện cần thiết}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{Hình3-Libary.png}
+		\caption{Cài đặt các thư viện cần thiết (Do đã cài đặt nên ta sẽ không cần cài nữa)}
+	\end{figure}
+\end{flushleft}
+\subsection{Các bước khởi tạo ứng dụng nghe nhạc}
+\subsubsection{Khai báo thư viện}
+\begin{flushleft}
+	Sau khi cài đặt các thư viện cần thiết, ta tiến hành khai báo các thư viện cần dùng:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{Hình4-Libary.png}
+		\includegraphics{Hình5-Libary.png}
+		\caption{Khai báo thư viện}
+	\end{figure}
+\end{flushleft}
+\newpage
+\subsection{Sơ đồ cơ sở dữ liệu}
+\begin{flushleft}
+	-Để lưu trữ thông tin về bài hát, album, nghệ sĩ, và các thông tin khác, chúng ta cần tạo một cơ sở dữ liệu.
+
+	-Chúng ta đồng thời sẽ sử dụng XAMPP để tạo cơ sở dữ liệu MySQL và thiết kế cơ sở dữ liệu cho ứng dụng trên đó.
+
+	-Chúng ta có sơ đồ cơ sở dữ liệu như sau:
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=\textwidth]{Hình6-Database.jpg}
+			\caption{Sơ đồ cơ sở dữ liệu cho ứng dụng nghe nhạc}
+		\end{center}
+	\end{figure}
+
+	-Sau khi chúng ta đã có sơ đồ cơ sở dữ liệu, chúng ta sẽ tiến hành kết nối cơ sở dữ liệu với ứng dụng thông qua thư viện MySQL Connector
+	và thực hiện các thao tác truy vấn, cập nhật dữ liệu từ cơ sở dữ liệu.
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{Hình7-ConnectDB.png}
+		\caption{Khai báo thư viện và kết nối cơ sở dữ liệu thông qua class ConnectDB.py}
+	\end{figure}
+\end{flushleft}
+\clearpage
+\newpage
+\subsection{Kiến trúc ứng dụng}
+\begin{flushleft}
+	-Về kiến trúc thiết kế mô hình phát triển ứng dụng nghe nhạc, chúng ta sẽ sử dụng mô hình 3 lớp (3-tier architecture)
+	bao gồm 3 lớp chính: DAL, BLL, và GUI.
+	\begin{figure}[h]
+		\centering
+		\includegraphics{Hình8-Architecture.png}
+		\caption{Kiến trúc ứng dụng nghe nhạc}
+	\end{figure}
+\end{flushleft}
+\newpage
 \begin{thebibliography}{80}
 
 	\bibitem{CVX}
@@ -414,4 +528,3 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 
 \end{thebibliography}
 \end{document}
-
