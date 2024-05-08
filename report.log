@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.15)  8 MAY 2024 06:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.8)  8 MAY 2024 10:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,20 +6,20 @@ entering extended mode
 **c:/Users/Admin/Desktop/Projects/Python-Report/report.tex
 (c:/Users/Admin/Desktop/Projects/Python-Report/report.tex
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
+L3 programming layer <2024-04-11>
 (D:\MikTex\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (D:\MikTex\tex/latex/base\size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
+\c@part=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -230,7 +230,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
  (D:\MikTex\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
@@ -244,14 +244,14 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 ) (D:\MikTex\tex/latex/tools\multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count196
+\c@tracingmulticols=\count197
 \mult@box=\box51
 \multicol@leftmargin=\dimen145
-\c@unbalance=\count197
-\c@collectmore=\count198
-\doublecol@number=\count199
-\multicoltolerance=\count266
-\multicolpretolerance=\count267
+\c@unbalance=\count198
+\c@collectmore=\count199
+\doublecol@number=\count266
+\multicoltolerance=\count267
+\multicolpretolerance=\count268
 \full@width=\dimen146
 \page@free=\dimen147
 \premulticols=\dimen148
@@ -302,15 +302,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
-\c@minrows=\count268
-\c@columnbadness=\count269
-\c@finalcolumnbadness=\count270
+\c@minrows=\count269
+\c@columnbadness=\count270
+\c@finalcolumnbadness=\count271
 \last@try=\dimen151
 \multicolovershoot=\dimen152
 \multicolundershoot=\dimen153
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
-\mc@col@check@num=\count271
+\mc@col@check@num=\count272
 ) (D:\MikTex\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen154
@@ -345,12 +345,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen163
 \cmidrulekern=\dimen164
 \defaultaddspace=\dimen165
-\@cmidla=\count272
-\@cmidlb=\count273
+\@cmidla=\count273
+\@cmidlb=\count274
 \@aboverulesep=\dimen166
 \@belowrulesep=\dimen167
-\@thisruleclass=\count274
-\@lastruleclass=\count275
+\@thisruleclass=\count275
+\@lastruleclass=\count276
 \@thisrulewidth=\dimen168
 ) (D:\MikTex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
@@ -369,14 +369,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (D:\MikTex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count276
+\inf@bad=\count277
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count277
-\leftroot@=\count278
+\uproot@=\count278
+\leftroot@=\count279
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count279
-\DOTSCASE@=\count280
+\classnum@=\count280
+\DOTSCASE@=\count281
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -389,20 +389,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen171
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count281
+\macc@depth=\count282
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count282
+\c@MaxMatrixCols=\count283
 \dotsspace@=\muskip16
-\c@parentequation=\count283
-\dspbrk@lvl=\count284
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
 \tag@help=\toks23
-\row@=\count285
-\column@=\count286
-\maxfields@=\count287
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
 \andhelp@=\toks24
 \eqnshift@=\dimen172
 \alignsep@=\dimen173
@@ -422,15 +422,15 @@ Package: lastpage 2024/04/27 v2.1a lastpage: 2.09 or 2e? (HMM)
 Package: lastpage2e 2024/04/27 v2.1a Decide which 2e lastpage version to use (HMM)
  (D:\MikTex\tex/latex/lastpage\lastpagemodern.sty
 Package: lastpagemodern 2024-04-27 v2.1a Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count288
+\c@lastpagecount=\count289
 ) 
 )) (D:\MikTex\tex/latex/algorithm2e\algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count289
+\c@AlgoLine=\count290
 \algocf@hangindent=\skip66
  (D:\MikTex\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count290
+\c@checkoddpage=\count291
 ) (D:\MikTex\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (D:\MikTex\tex/latex/relsize\relsize.sty
@@ -466,9 +466,9 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip82
 \algotitleheightruledefault=\skip83
 \algotitleheightrule=\skip84
-\c@algocfline=\count291
-\c@algocfproc=\count292
-\c@algocf=\count293
+\c@algocfline=\count292
+\c@algocfproc=\count293
+\c@algocf=\count294
 \algocf@algoframe=\box107
 \algocf@algobox=\box108
 ) (D:\MikTex\tex/latex/tools\enumerate.sty
@@ -487,7 +487,7 @@ Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen186
 \TX@target=\dimen187
 \TX@delta=\dimen188
-\TX@cols=\count294
+\TX@cols=\count295
 \TX@ftn=\toks28
 ) (D:\MikTex\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
@@ -503,12 +503,12 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen196
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count295
-\c@continuedfloat=\count296
+\c@caption@flags=\count296
+\c@continuedfloat=\count297
 ) (D:\MikTex\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip85
-\multirow@cntb=\count297
+\multirow@cntb=\count298
 \multirow@dima=\skip86
 \bigstrutjot=\dimen197
 ) (D:\MikTex\tex/latex/mdframed\mdframed.sty
@@ -520,16 +520,16 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 ) (D:\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (D:\MikTex\tex/latex/l3packages/xparse\xparse.sty (D:\MikTex\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-03-14 L3 programming layer (loader) 
+Package: expl3 2024-04-11 L3 programming layer (loader) 
  (D:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count298
+File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box109
 ))
 Package: xparse 2024-03-14 L3 Experimental document command parser
 ) (D:\MikTex\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count299
+\etb@tempcnta=\count300
 ) (D:\MikTex\tex/latex/zref\zref-abspage.sty
 Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
  (D:\MikTex\tex/latex/zref\zref-base.sty
@@ -555,13 +555,13 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count300
+\c@abspage=\count301
 Package zref Info: New property: abspage on input line 67.
 ) (D:\MikTex\tex/latex/needspace\needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip87
-\c@mdf@globalstyle@cnt=\count301
+\c@mdf@globalstyle@cnt=\count302
 \mdf@skipabove@length=\skip88
 \mdf@skipbelow@length=\skip89
 \mdf@leftmargin@length=\skip90
@@ -631,14 +631,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen265
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count302
-\c@pgf@countb=\count303
-\c@pgf@countc=\count304
-\c@pgf@countd=\count305
+\c@pgf@counta=\count303
+\c@pgf@countb=\count304
+\c@pgf@countc=\count305
+\c@pgf@countd=\count306
 \t@pgf@toka=\toks33
 \t@pgf@tokb=\toks34
 \t@pgf@tokc=\toks35
-\pgf@sys@id@count=\count306
+\pgf@sys@id@count=\count307
  (D:\MikTex\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -649,8 +649,8 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (D:\MikTex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count307
-\pgfsyssoftpath@bigbuffer@items=\count308
+\pgfsyssoftpath@smallbuffer@items=\count308
+\pgfsyssoftpath@bigbuffer@items=\count309
 ) (D:\MikTex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (D:\MikTex\tex/latex/xcolor\xcolor.sty
@@ -674,13 +674,13 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (D:\MikTex\tex/generic/pgf/math\pgfmath.code.tex (D:\MikTex\tex/generic/pgf/math\pgfmathutil.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen266
-\pgfmath@count=\count309
+\pgfmath@count=\count310
 \pgfmath@box=\box111
 \pgfmath@toks=\toks36
 \pgfmath@stack@operand=\toks37
 \pgfmath@stack@operation=\toks38
 ) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathcalc.code.tex) (D:\MikTex\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count310
+\c@pgfmathroundto@lastzeros=\count311
 )) (D:\MikTex\tex/generic/pgf/math\pgfint.code.tex) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen267
@@ -710,7 +710,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box112
 \pgf@hbox=\box113
 \pgf@layerbox@main=\box114
-\pgf@picture@serial@count=\count311
+\pgf@picture@serial@count=\count312
 ) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen285
@@ -731,8 +731,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen290
-\pgf@sys@shading@range@num=\count312
-\pgf@shadingcount=\count313
+\pgf@sys@shading@range@num=\count313
+\pgf@shadingcount=\count314
 ) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (D:\MikTex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
@@ -767,7 +767,7 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (D:\MikTex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count314
+\pgf@plot@mark@count=\count315
 \pgfplotmarksize=\dimen295
 )
 \tikz@lastx=\dimen296
@@ -782,17 +782,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box118
 \tikz@tempbox=\box119
 \tikz@tempbox@bg=\box120
-\tikztreelevel=\count315
-\tikznumberofchildren=\count316
-\tikznumberofcurrentchild=\count317
-\tikz@fig@count=\count318
+\tikztreelevel=\count316
+\tikznumberofchildren=\count317
+\tikznumberofcurrentchild=\count318
+\tikz@fig@count=\count319
  (D:\MikTex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count319
-\pgfmatrixcurrentcolumn=\count320
-\pgf@matrix@numberofcolumns=\count321
+\pgfmatrixcurrentrow=\count320
+\pgfmatrixcurrentcolumn=\count321
+\pgf@matrix@numberofcolumns=\count322
 )
-\tikz@expandcount=\count322
+\tikz@expandcount=\count323
  (D:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (D:\MikTex\tex/latex/mdframed\md-frame-1.mdf
@@ -830,20 +830,20 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip151
 \mdfsubtitleheight=\skip152
 \mdfsubsubtitleheight=\skip153
-\c@mdfcountframes=\count323
+\c@mdfcountframes=\count324
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count324
-\c@mdf@env@i=\count325
-\c@mdf@env@ii=\count326
-\c@mdf@zref@counter=\count327
+\mdf@envdepth=\count325
+\c@mdf@env@i=\count326
+\c@mdf@env@ii=\count327
+\c@mdf@zref@counter=\count328
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (D:\MikTex\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count328
+\c@r@tfl@t=\count329
 \rotFPtop=\skip154
 \rotFPbot=\skip155
 \rot@float@box=\box126
@@ -853,9 +853,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (D:\MikTex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count329
-\Gm@cntv=\count330
-\c@Gm@tempcnt=\count331
+\Gm@cnth=\count330
+\Gm@cntv=\count331
+\c@Gm@tempcnt=\count332
 \Gm@bindingoffset=\dimen304
 \Gm@wd@mp=\dimen305
 \Gm@odd@mp=\dimen306
@@ -868,24 +868,24 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (D:\MikTex\tex/latex/geometry\geometry.cfg)) (D:\MikTex\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (D:\MikTex\tex/latex/listings\listings.sty
-\lst@mode=\count332
+\lst@mode=\count333
 \lst@gtempboxa=\box127
 \lst@token=\toks43
-\lst@length=\count333
+\lst@length=\count334
 \lst@currlwidth=\dimen312
-\lst@column=\count334
-\lst@pos=\count335
+\lst@column=\count335
+\lst@pos=\count336
 \lst@lostspace=\dimen313
 \lst@width=\dimen314
-\lst@newlines=\count336
-\lst@lineno=\count337
+\lst@newlines=\count337
+\lst@lineno=\count338
 \lst@maxwidth=\dimen315
  (D:\MikTex\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
 ) (D:\MikTex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
-\c@lstnumber=\count338
-\lst@skipnumbers=\count339
+\c@lstnumber=\count339
+\lst@skipnumbers=\count340
 \lst@framebox=\box128
 ) (D:\MikTex\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/03/11 1.10a listings configuration
@@ -908,7 +908,7 @@ Package pgf Warning: Snakes have been superseded by decorations. Please use the 
 \pgfdecoratedinputsegmentcompleteddistance=\dimen319
 \pgfdecoratedinputsegmentremainingdistance=\dimen320
 \pgf@decorate@distancetomove=\dimen321
-\pgf@decorate@repeatstate=\count340
+\pgf@decorate@repeatstate=\count341
 \pgfdecorationsegmentamplitude=\dimen322
 \pgfdecorationsegmentlength=\dimen323
 )
@@ -930,11 +930,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (D:\MikTex\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count341
+\c@section@level=\count342
 )
 \@linkdim=\dimen324
-\Hy@linkcounter=\count342
-\Hy@pagecounter=\count343
+\Hy@linkcounter=\count343
+\Hy@pagecounter=\count344
  (D:\MikTex\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -942,7 +942,7 @@ Now handling font encoding PD1 ...
 ) (D:\MikTex\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count344
+\Hy@SavedSpaceFactor=\count345
  (D:\MikTex\tex/latex/hyperref\puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -955,7 +955,7 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count345
+\c@Hy@tempcnt=\count346
  (D:\MikTex\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -967,7 +967,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (D:\MikTex\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count346
+\Fld@menulength=\count347
 \Field@Width=\dimen326
 \Fld@charsize=\dimen327
 Package hyperref Info: Hyper figures OFF on input line 6063.
@@ -981,9 +981,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count347
-\c@Item=\count348
-\c@Hfootnote=\count349
+\Hy@abspage=\count348
+\c@Item=\count349
+\c@Hfootnote=\count350
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (D:\MikTex\tex/latex/hyperref\hpdftex.def
@@ -992,9 +992,9 @@ File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\HyAnn@Count=\count350
-\Fld@listcount=\count351
-\c@bookmark@seq@number=\count352
+\HyAnn@Count=\count351
+\Fld@listcount=\count352
+\c@bookmark@seq@number=\count353
  (D:\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (D:\MikTex\tex/generic/uniquecounter\uniquecounter.sty
@@ -1005,10 +1005,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip156
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 25.
-\c@theorem=\count353
-\c@property=\count354
-\c@proposition=\count355
-\c@subsubsubsection=\count356
+\c@theorem=\count354
+\c@property=\count355
+\c@proposition=\count356
+\c@subsubsubsection=\count357
  (D:\MikTex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 ) (report.aux)
@@ -1036,16 +1036,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
  (D:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
+\scratchcounter=\count358
 \scratchdimen=\dimen328
 \scratchbox=\box132
-\nofMPsegments=\count358
-\nofMParguments=\count359
+\nofMPsegments=\count359
+\nofMParguments=\count360
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count360
+\MPscratchCnt=\count361
 \MPscratchDim=\dimen329
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
+\MPnumerator=\count362
+\makeMPintoPDFobject=\count363
 \everyMPtoPDFconversion=\toks45
 ) (D:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1093,7 +1093,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count363
+\c@lstlisting=\count364
 Package hyperref Info: Link coloring ON on input line 104.
 (report.out) (report.out)
 \@outlinefile=\write4
@@ -1155,12 +1155,12 @@ Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 384.
  [4]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 420.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 419.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [5]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 420.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 419.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [6]
 
@@ -1168,32 +1168,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 446.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 445.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
 [7]
 <images/Hình2-Libary.png, id=148, 538.26094pt x 156.585pt>
 File: images/Hình2-Libary.png Graphic file (type png)
 <use images/Hình2-Libary.png>
-Package pdftex.def Info: images/Hình2-Libary.png  used on input line 460.
+Package pdftex.def Info: images/Hình2-Libary.png  used on input line 459.
 (pdftex.def)             Requested size: 418.25368pt x 121.67467pt.
 <images/Hình3-Libary.png, id=149, 485.56406pt x 32.37094pt>
 File: images/Hình3-Libary.png Graphic file (type png)
 <use images/Hình3-Libary.png>
-Package pdftex.def Info: images/Hình3-Libary.png  used on input line 465.
+Package pdftex.def Info: images/Hình3-Libary.png  used on input line 464.
 (pdftex.def)             Requested size: 418.25368pt x 27.88339pt.
 <images/Hình4-Libary.png, id=150, 1000.73875pt x 111.41624pt>
 File: images/Hình4-Libary.png Graphic file (type png)
 <use images/Hình4-Libary.png>
-Package pdftex.def Info: images/Hình4-Libary.png  used on input line 475.
+Package pdftex.def Info: images/Hình4-Libary.png  used on input line 474.
 (pdftex.def)             Requested size: 418.25368pt x 46.56499pt.
 <images/Hình5-Libary.png, id=151, 292.09125pt x 50.1875pt>
 File: images/Hình5-Libary.png Graphic file (type png)
 <use images/Hình5-Libary.png>
-Package pdftex.def Info: images/Hình5-Libary.png  used on input line 476.
+Package pdftex.def Info: images/Hình5-Libary.png  used on input line 475.
 (pdftex.def)             Requested size: 292.09052pt x 50.18736pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 480.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 479.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [8
 
@@ -1201,52 +1201,52 @@ Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 480.
 <images/Hình6-Database.jpg, id=164, 752.22968pt x 468.58936pt>
 File: images/Hình6-Database.jpg Graphic file (type jpg)
 <use images/Hình6-Database.jpg>
-Package pdftex.def Info: images/Hình6-Database.jpg  used on input line 490.
+Package pdftex.def Info: images/Hình6-Database.jpg  used on input line 489.
 (pdftex.def)             Requested size: 418.25368pt x 260.54207pt.
 <images/Hình7-ConnectDB.png, id=165, 401.24907pt x 333.49594pt>
 File: images/Hình7-ConnectDB.png Graphic file (type png)
 <use images/Hình7-ConnectDB.png>
-Package pdftex.def Info: images/Hình7-ConnectDB.png  used on input line 500.
+Package pdftex.def Info: images/Hình7-ConnectDB.png  used on input line 499.
 (pdftex.def)             Requested size: 418.25368pt x 347.65196pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 518.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 517.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [9 <./images/Hình6-Database.jpg>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 518.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 517.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [10 <./images/Hình7-ConnectDB.png>]
 <images/Hình8-Architecture.png, id=179, 149.05687pt x 200.24812pt>
 File: images/Hình8-Architecture.png Graphic file (type png)
 <use images/Hình8-Architecture.png>
-Package pdftex.def Info: images/Hình8-Architecture.png  used on input line 526.
+Package pdftex.def Info: images/Hình8-Architecture.png  used on input line 525.
 (pdftex.def)             Requested size: 149.0565pt x 200.24763pt.
 <images/AlbumDTO.png, id=180, 584.1825pt x 181.67876pt>
 File: images/AlbumDTO.png Graphic file (type png)
 <use images/AlbumDTO.png>
-Package pdftex.def Info: images/AlbumDTO.png  used on input line 536.
+Package pdftex.def Info: images/AlbumDTO.png  used on input line 535.
 (pdftex.def)             Requested size: 418.25368pt x 130.0795pt.
 <images/ArtistDTO.png, id=181, 390.45876pt x 143.53625pt>
 File: images/ArtistDTO.png Graphic file (type png)
 <use images/ArtistDTO.png>
-Package pdftex.def Info: images/ArtistDTO.png  used on input line 541.
+Package pdftex.def Info: images/ArtistDTO.png  used on input line 540.
 (pdftex.def)             Requested size: 418.25368pt x 153.76186pt.
 <images/PlayListDetailDTO.png, id=182, 430.60875pt x 144.54pt>
 File: images/PlayListDetailDTO.png Graphic file (type png)
 <use images/PlayListDetailDTO.png>
-Package pdftex.def Info: images/PlayListDetailDTO.png  used on input line 542.
+Package pdftex.def Info: images/PlayListDetailDTO.png  used on input line 541.
 (pdftex.def)             Requested size: 418.25368pt x 140.3955pt.
 <images/PlayListDTO.png, id=183, 603.25375pt x 161.60374pt>
 File: images/PlayListDTO.png Graphic file (type png)
 <use images/PlayListDTO.png>
-Package pdftex.def Info: images/PlayListDTO.png  used on input line 543.
+Package pdftex.def Info: images/PlayListDTO.png  used on input line 542.
 (pdftex.def)             Requested size: 418.25368pt x 112.04425pt.
 <images/TrackDTO.png, id=184, 669.50125pt x 201.75375pt>
 File: images/TrackDTO.png Graphic file (type png)
 <use images/TrackDTO.png>
-Package pdftex.def Info: images/TrackDTO.png  used on input line 544.
+Package pdftex.def Info: images/TrackDTO.png  used on input line 543.
 (pdftex.def)             Requested size: 418.25368pt x 126.04344pt.
 
 
@@ -1254,73 +1254,73 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 547.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 546.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
 [11
 
  <./images/Hình8-Architecture.png> <./images/AlbumDTO.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 547.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 546.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [12 <./images/ArtistDTO.png> <./images/PlayListDetailDTO.png> <./images/PlayListDTO.png> <./images/TrackDTO.png>]
 <images/UserDTO.png, id=205, 484.81125pt x 145.54375pt>
 File: images/UserDTO.png Graphic file (type png)
 <use images/UserDTO.png>
-Package pdftex.def Info: images/UserDTO.png  used on input line 552.
+Package pdftex.def Info: images/UserDTO.png  used on input line 551.
 (pdftex.def)             Requested size: 418.25368pt x 125.56935pt.
 <images/PlaylistDAL-1.png, id=206, 1546.77875pt x 912.40875pt>
 File: images/PlaylistDAL-1.png Graphic file (type png)
 <use images/PlaylistDAL-1.png>
-Package pdftex.def Info: images/PlaylistDAL-1.png  used on input line 559.
+Package pdftex.def Info: images/PlaylistDAL-1.png  used on input line 558.
 (pdftex.def)             Requested size: 418.25368pt x 246.71564pt.
 <images/PlaylistDAL-2.png, id=207, 968.61874pt x 415.5525pt>
 File: images/PlaylistDAL-2.png Graphic file (type png)
 <use images/PlaylistDAL-2.png>
-Package pdftex.def Info: images/PlaylistDAL-2.png  used on input line 562.
+Package pdftex.def Info: images/PlaylistDAL-2.png  used on input line 561.
 (pdftex.def)             Requested size: 418.25368pt x 179.43864pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 583.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 582.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [13
 
  <./images/UserDTO.png> <./images/PlaylistDAL-1.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 618.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 617.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [14 <./images/PlaylistDAL-2.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 640.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 639.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [15]
 <images/albumDAL.png, id=229, 745.28438pt x 819.06pt>
 File: images/albumDAL.png Graphic file (type png)
 <use images/albumDAL.png>
-Package pdftex.def Info: images/albumDAL.png  used on input line 644.
+Package pdftex.def Info: images/albumDAL.png  used on input line 643.
 (pdftex.def)             Requested size: 376.42575pt x 413.67827pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 664.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 663.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [16
 
  <./images/albumDAL.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 683.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 682.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [17]
 <images/artistDAL.png, id=242, 756.57657pt x 775.39688pt>
 File: images/artistDAL.png Graphic file (type png)
 <use images/artistDAL.png>
-Package pdftex.def Info: images/artistDAL.png  used on input line 688.
+Package pdftex.def Info: images/artistDAL.png  used on input line 687.
 (pdftex.def)             Requested size: 418.25368pt x 428.65845pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 706.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 705.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [18
 
@@ -1328,11 +1328,11 @@ Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 706.
 <images/PlayListDetail.png, id=251, 726.46407pt x 459.21562pt>
 File: images/PlayListDetail.png Graphic file (type png)
 <use images/PlayListDetail.png>
-Package pdftex.def Info: images/PlayListDetail.png  used on input line 710.
+Package pdftex.def Info: images/PlayListDetail.png  used on input line 709.
 (pdftex.def)             Requested size: 418.25368pt x 264.39728pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 723.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 722.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [19
 
@@ -1340,7 +1340,7 @@ Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 723.
 <images/trackDAl.png, id=259, 777.65532pt x 1026.08344pt>
 File: images/trackDAl.png Graphic file (type png)
 <use images/trackDAl.png>
-Package pdftex.def Info: images/trackDAl.png  used on input line 727.
+Package pdftex.def Info: images/trackDAl.png  used on input line 726.
 (pdftex.def)             Requested size: 418.25368pt x 551.88486pt.
 
 
@@ -1348,12 +1348,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 730.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 729.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
 [20 <./images/trackDAl.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 747.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 746.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [21
 
@@ -1362,28 +1362,28 @@ Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 747.
 <images/userDAL.png, id=272, 747.54282pt x 1042.64531pt>
 File: images/userDAL.png Graphic file (type png)
 <use images/userDAL.png>
-Package pdftex.def Info: images/userDAL.png  used on input line 752.
+Package pdftex.def Info: images/userDAL.png  used on input line 751.
 (pdftex.def)             Requested size: 418.25368pt x 583.36829pt.
 
 
-LaTeX Warning: Float too large for page by 14.26237pt on input line 754.
+LaTeX Warning: Float too large for page by 14.26237pt on input line 753.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 755.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 754.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
 [22 <./images/userDAL.png>]
 <images/AlbumBLL.png, id=280, 493.845pt x 430.60875pt>
 File: images/AlbumBLL.png Graphic file (type png)
 <use images/AlbumBLL.png>
-Package pdftex.def Info: images/AlbumBLL.png  used on input line 778.
+Package pdftex.def Info: images/AlbumBLL.png  used on input line 777.
 (pdftex.def)             Requested size: 376.42575pt x 328.21877pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 783.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 782.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [23
 
@@ -1392,12 +1392,12 @@ Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 783.
 <images/artistBLL.png, id=288, 497.60907pt x 391.4625pt>
 File: images/artistBLL.png Graphic file (type png)
 <use images/artistBLL.png>
-Package pdftex.def Info: images/artistBLL.png  used on input line 787.
+Package pdftex.def Info: images/artistBLL.png  used on input line 786.
 (pdftex.def)             Requested size: 334.60422pt x 263.23422pt.
 <images/PlayListBLL.png, id=289, 502.87875pt x 444.91219pt>
 File: images/PlayListBLL.png Graphic file (type png)
 <use images/PlayListBLL.png>
-Package pdftex.def Info: images/PlayListBLL.png  used on input line 788.
+Package pdftex.def Info: images/PlayListBLL.png  used on input line 787.
 (pdftex.def)             Requested size: 334.60422pt x 296.0326pt.
 
 
@@ -1405,18 +1405,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 792.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 791.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
 [24 <./images/artistBLL.png> <./images/PlayListBLL.png>]
 <images/PLDetailBLL.png, id=299, 519.44063pt x 294.34969pt>
 File: images/PLDetailBLL.png Graphic file (type png)
 <use images/PLDetailBLL.png>
-Package pdftex.def Info: images/PLDetailBLL.png  used on input line 796.
+Package pdftex.def Info: images/PLDetailBLL.png  used on input line 795.
 (pdftex.def)             Requested size: 334.60422pt x 189.6093pt.
 <images/TrackBLL.png, id=300, 499.11469pt x 385.44pt>
 File: images/TrackBLL.png Graphic file (type png)
 <use images/TrackBLL.png>
-Package pdftex.def Info: images/TrackBLL.png  used on input line 797.
+Package pdftex.def Info: images/TrackBLL.png  used on input line 796.
 (pdftex.def)             Requested size: 334.60422pt x 258.40225pt.
 
 
@@ -1424,17 +1424,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 800.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 799.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
 [25 <./images/PLDetailBLL.png> <./images/TrackBLL.png>]
 <images/UserBLL.png, id=309, 495.35063pt x 439.6425pt>
 File: images/UserBLL.png Graphic file (type png)
 <use images/UserBLL.png>
-Package pdftex.def Info: images/UserBLL.png  used on input line 804.
+Package pdftex.def Info: images/UserBLL.png  used on input line 803.
 (pdftex.def)             Requested size: 334.60422pt x 296.97395pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 817.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 816.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [26
 
@@ -1443,28 +1443,28 @@ Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 817.
  <./images/UserBLL.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 826.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 825.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [27] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
+L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 4C80DBDD72AF83F5AA50B7DEF8FA7E43;3448.
  ) 
 Here is how much of TeX's memory you used:
- 28397 strings out of 474424
- 525730 string characters out of 5758154
- 1939496 words of memory out of 5000000
- 50148 multiletter control sequences out of 15000+600000
+ 28397 strings out of 474370
+ 525730 string characters out of 5756951
+ 1939754 words of memory out of 5000000
+ 50202 multiletter control sequences out of 15000+600000
  572609 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,25n,115p,696b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,25n,115p,696b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/vntex/vnr/vnbx10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnbx12.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr8.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnti10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on report.pdf (28 pages, 1467621 bytes).
+Output written on report.pdf (28 pages, 1467614 bytes).
 PDF statistics:
  378 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
