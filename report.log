@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.8)  8 MAY 2024 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.8)  11 MAY 2024 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1099,7 +1099,7 @@ Package hyperref Info: Link coloring ON on input line 104.
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
-<images/logoITSGU.png, id=74, 803.0pt x 803.0pt>
+<images/logoITSGU.png, id=122, 803.0pt x 803.0pt>
 File: images/logoITSGU.png Graphic file (type png)
 <use images/logoITSGU.png>
 Package pdftex.def Info: images/logoITSGU.png  used on input line 115.
@@ -1115,12 +1115,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 123.
  (D:\MikTex\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-Overfull \hbox (42.15338pt too wide) in paragraph at lines 123--135
- [] 
- []
-
-[1
+) [1
 
 {C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/logoITSGU.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1128,7 +1123,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.246 \newpage
                [1]
-<images/logoITSGUsmall.png, id=89, 803.0pt x 803.0pt>
+<images/logoITSGUsmall.png, id=137, 803.0pt x 803.0pt>
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
 Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 259.
@@ -1171,22 +1166,22 @@ File: images/logoITSGUsmall.png Graphic file (type png)
 Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 445.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
 [7]
-<images/Hình2-Libary.png, id=148, 538.26094pt x 156.585pt>
+<images/Hình2-Libary.png, id=209, 538.26094pt x 156.585pt>
 File: images/Hình2-Libary.png Graphic file (type png)
 <use images/Hình2-Libary.png>
 Package pdftex.def Info: images/Hình2-Libary.png  used on input line 459.
 (pdftex.def)             Requested size: 418.25368pt x 121.67467pt.
-<images/Hình3-Libary.png, id=149, 485.56406pt x 32.37094pt>
+<images/Hình3-Libary.png, id=210, 485.56406pt x 32.37094pt>
 File: images/Hình3-Libary.png Graphic file (type png)
 <use images/Hình3-Libary.png>
 Package pdftex.def Info: images/Hình3-Libary.png  used on input line 464.
 (pdftex.def)             Requested size: 418.25368pt x 27.88339pt.
-<images/Hình4-Libary.png, id=150, 1000.73875pt x 111.41624pt>
+<images/Hình4-Libary.png, id=211, 1000.73875pt x 111.41624pt>
 File: images/Hình4-Libary.png Graphic file (type png)
 <use images/Hình4-Libary.png>
 Package pdftex.def Info: images/Hình4-Libary.png  used on input line 474.
 (pdftex.def)             Requested size: 418.25368pt x 46.56499pt.
-<images/Hình5-Libary.png, id=151, 292.09125pt x 50.1875pt>
+<images/Hình5-Libary.png, id=212, 292.09125pt x 50.1875pt>
 File: images/Hình5-Libary.png Graphic file (type png)
 <use images/Hình5-Libary.png>
 Package pdftex.def Info: images/Hình5-Libary.png  used on input line 475.
@@ -1198,12 +1193,12 @@ Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 479.
  [8
 
  <./images/Hình2-Libary.png> <./images/Hình3-Libary.png> <./images/Hình4-Libary.png> <./images/Hình5-Libary.png>]
-<images/Hình6-Database.jpg, id=164, 752.22968pt x 468.58936pt>
-File: images/Hình6-Database.jpg Graphic file (type jpg)
-<use images/Hình6-Database.jpg>
-Package pdftex.def Info: images/Hình6-Database.jpg  used on input line 489.
-(pdftex.def)             Requested size: 418.25368pt x 260.54207pt.
-<images/Hình7-ConnectDB.png, id=165, 401.24907pt x 333.49594pt>
+<images/Hình4-DB.png, id=225, 761.84625pt x 295.1025pt>
+File: images/Hình4-DB.png Graphic file (type png)
+<use images/Hình4-DB.png>
+Package pdftex.def Info: images/Hình4-DB.png  used on input line 489.
+(pdftex.def)             Requested size: 418.25368pt x 162.00967pt.
+<images/Hình7-ConnectDB.png, id=226, 401.24907pt x 333.49594pt>
 File: images/Hình7-ConnectDB.png Graphic file (type png)
 <use images/Hình7-ConnectDB.png>
 Package pdftex.def Info: images/Hình7-ConnectDB.png  used on input line 499.
@@ -1212,38 +1207,38 @@ File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
 Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 517.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [9 <./images/Hình6-Database.jpg>]
+ [9 <./images/Hình4-DB.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
 Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 517.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [10 <./images/Hình7-ConnectDB.png>]
-<images/Hình8-Architecture.png, id=179, 149.05687pt x 200.24812pt>
+<images/Hình8-Architecture.png, id=241, 149.05687pt x 200.24812pt>
 File: images/Hình8-Architecture.png Graphic file (type png)
 <use images/Hình8-Architecture.png>
 Package pdftex.def Info: images/Hình8-Architecture.png  used on input line 525.
 (pdftex.def)             Requested size: 149.0565pt x 200.24763pt.
-<images/AlbumDTO.png, id=180, 584.1825pt x 181.67876pt>
+<images/AlbumDTO.png, id=242, 584.1825pt x 181.67876pt>
 File: images/AlbumDTO.png Graphic file (type png)
 <use images/AlbumDTO.png>
 Package pdftex.def Info: images/AlbumDTO.png  used on input line 535.
 (pdftex.def)             Requested size: 418.25368pt x 130.0795pt.
-<images/ArtistDTO.png, id=181, 390.45876pt x 143.53625pt>
+<images/ArtistDTO.png, id=243, 390.45876pt x 143.53625pt>
 File: images/ArtistDTO.png Graphic file (type png)
 <use images/ArtistDTO.png>
 Package pdftex.def Info: images/ArtistDTO.png  used on input line 540.
 (pdftex.def)             Requested size: 418.25368pt x 153.76186pt.
-<images/PlayListDetailDTO.png, id=182, 430.60875pt x 144.54pt>
+<images/PlayListDetailDTO.png, id=244, 430.60875pt x 144.54pt>
 File: images/PlayListDetailDTO.png Graphic file (type png)
 <use images/PlayListDetailDTO.png>
 Package pdftex.def Info: images/PlayListDetailDTO.png  used on input line 541.
 (pdftex.def)             Requested size: 418.25368pt x 140.3955pt.
-<images/PlayListDTO.png, id=183, 603.25375pt x 161.60374pt>
+<images/PlayListDTO.png, id=245, 603.25375pt x 161.60374pt>
 File: images/PlayListDTO.png Graphic file (type png)
 <use images/PlayListDTO.png>
 Package pdftex.def Info: images/PlayListDTO.png  used on input line 542.
 (pdftex.def)             Requested size: 418.25368pt x 112.04425pt.
-<images/TrackDTO.png, id=184, 669.50125pt x 201.75375pt>
+<images/TrackDTO.png, id=246, 669.50125pt x 201.75375pt>
 File: images/TrackDTO.png Graphic file (type png)
 <use images/TrackDTO.png>
 Package pdftex.def Info: images/TrackDTO.png  used on input line 543.
@@ -1264,159 +1259,173 @@ File: images/logoITSGUsmall.png Graphic file (type png)
 Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 546.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [12 <./images/ArtistDTO.png> <./images/PlayListDetailDTO.png> <./images/PlayListDTO.png> <./images/TrackDTO.png>]
-<images/UserDTO.png, id=205, 484.81125pt x 145.54375pt>
+<images/UserDTO.png, id=267, 484.81125pt x 145.54375pt>
 File: images/UserDTO.png Graphic file (type png)
 <use images/UserDTO.png>
 Package pdftex.def Info: images/UserDTO.png  used on input line 551.
 (pdftex.def)             Requested size: 418.25368pt x 125.56935pt.
-<images/PlaylistDAL-1.png, id=206, 1546.77875pt x 912.40875pt>
+<images/PlaylistDAL-1.png, id=268, 951.555pt x 898.35625pt>
 File: images/PlaylistDAL-1.png Graphic file (type png)
 <use images/PlaylistDAL-1.png>
 Package pdftex.def Info: images/PlaylistDAL-1.png  used on input line 558.
-(pdftex.def)             Requested size: 418.25368pt x 246.71564pt.
-<images/PlaylistDAL-2.png, id=207, 968.61874pt x 415.5525pt>
+(pdftex.def)             Requested size: 418.25368pt x 394.86673pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 560.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+[13
+
+ <./images/UserDTO.png>]
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 560.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [14 <./images/PlaylistDAL-1.png>]
+<images/PlaylistDAL-2.png, id=283, 979.66pt x 540.0175pt>
 File: images/PlaylistDAL-2.png Graphic file (type png)
 <use images/PlaylistDAL-2.png>
-Package pdftex.def Info: images/PlaylistDAL-2.png  used on input line 561.
-(pdftex.def)             Requested size: 418.25368pt x 179.43864pt.
+Package pdftex.def Info: images/PlaylistDAL-2.png  used on input line 564.
+(pdftex.def)             Requested size: 418.25368pt x 230.54675pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 582.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 602.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [13
+ [15
 
- <./images/UserDTO.png> <./images/PlaylistDAL-1.png>]
+ <./images/PlaylistDAL-2.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 617.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 652.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [14 <./images/PlaylistDAL-2.png>]
-File: images/logoITSGUsmall.png Graphic file (type png)
-<use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 639.
-(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [15]
-<images/albumDAL.png, id=229, 745.28438pt x 819.06pt>
+ [16]
+<images/albumDAL.png, id=296, 745.28438pt x 819.06pt>
 File: images/albumDAL.png Graphic file (type png)
 <use images/albumDAL.png>
-Package pdftex.def Info: images/albumDAL.png  used on input line 643.
+Package pdftex.def Info: images/albumDAL.png  used on input line 656.
 (pdftex.def)             Requested size: 376.42575pt x 413.67827pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 663.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 676.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [16
+ [17
 
  <./images/albumDAL.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 682.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 695.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [17]
-<images/artistDAL.png, id=242, 756.57657pt x 775.39688pt>
+ [18]
+<images/artistDAL.png, id=310, 756.57657pt x 775.39688pt>
 File: images/artistDAL.png Graphic file (type png)
 <use images/artistDAL.png>
-Package pdftex.def Info: images/artistDAL.png  used on input line 687.
+Package pdftex.def Info: images/artistDAL.png  used on input line 700.
 (pdftex.def)             Requested size: 418.25368pt x 428.65845pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 705.
-(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [18
-
- <./images/artistDAL.png>]
-<images/PlayListDetail.png, id=251, 726.46407pt x 459.21562pt>
-File: images/PlayListDetail.png Graphic file (type png)
-<use images/PlayListDetail.png>
-Package pdftex.def Info: images/PlayListDetail.png  used on input line 709.
-(pdftex.def)             Requested size: 418.25368pt x 264.39728pt.
-File: images/logoITSGUsmall.png Graphic file (type png)
-<use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 722.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 718.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
  [19
 
+ <./images/artistDAL.png>]
+<images/PlayListDetail.png, id=318, 726.46407pt x 459.21562pt>
+File: images/PlayListDetail.png Graphic file (type png)
+<use images/PlayListDetail.png>
+Package pdftex.def Info: images/PlayListDetail.png  used on input line 722.
+(pdftex.def)             Requested size: 418.25368pt x 264.39728pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 735.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [20
+
  <./images/PlayListDetail.png>]
-<images/trackDAl.png, id=259, 777.65532pt x 1026.08344pt>
-File: images/trackDAl.png Graphic file (type png)
-<use images/trackDAl.png>
-Package pdftex.def Info: images/trackDAl.png  used on input line 726.
-(pdftex.def)             Requested size: 418.25368pt x 551.88486pt.
+<images/TrackDAL.png, id=326, 700.11563pt x 846.16125pt>
+File: images/TrackDAL.png Graphic file (type png)
+<use images/TrackDAL.png>
+Package pdftex.def Info: images/TrackDAL.png  used on input line 739.
+(pdftex.def)             Requested size: 418.25368pt x 505.50574pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 729.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 742.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
-[20 <./images/trackDAl.png>]
+[21 <./images/TrackDAL.png>]
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 746.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 774.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [21
+ [22
 
 
 ]
-<images/userDAL.png, id=272, 747.54282pt x 1042.64531pt>
+<images/userDAL.png, id=339, 747.54282pt x 1042.64531pt>
 File: images/userDAL.png Graphic file (type png)
 <use images/userDAL.png>
-Package pdftex.def Info: images/userDAL.png  used on input line 751.
+Package pdftex.def Info: images/userDAL.png  used on input line 779.
 (pdftex.def)             Requested size: 418.25368pt x 583.36829pt.
 
 
-LaTeX Warning: Float too large for page by 14.26237pt on input line 753.
+LaTeX Warning: Float too large for page by 14.26237pt on input line 781.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: images/logoITSGUsmall.png Graphic file (type png)
-<use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 754.
-(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
-[22 <./images/userDAL.png>]
-<images/AlbumBLL.png, id=280, 493.845pt x 430.60875pt>
-File: images/AlbumBLL.png Graphic file (type png)
-<use images/AlbumBLL.png>
-Package pdftex.def Info: images/AlbumBLL.png  used on input line 777.
-(pdftex.def)             Requested size: 376.42575pt x 328.21877pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
 Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 782.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [23
+[23 <./images/userDAL.png>]
+<images/AlbumBLL.png, id=347, 493.845pt x 430.60875pt>
+File: images/AlbumBLL.png Graphic file (type png)
+<use images/AlbumBLL.png>
+Package pdftex.def Info: images/AlbumBLL.png  used on input line 805.
+(pdftex.def)             Requested size: 376.42575pt x 328.21877pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 810.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [24
 
 
  <./images/AlbumBLL.png>]
-<images/artistBLL.png, id=288, 497.60907pt x 391.4625pt>
+<images/artistBLL.png, id=356, 497.60907pt x 391.4625pt>
 File: images/artistBLL.png Graphic file (type png)
 <use images/artistBLL.png>
-Package pdftex.def Info: images/artistBLL.png  used on input line 786.
+Package pdftex.def Info: images/artistBLL.png  used on input line 814.
 (pdftex.def)             Requested size: 334.60422pt x 263.23422pt.
-<images/PlayListBLL.png, id=289, 502.87875pt x 444.91219pt>
+<images/PlayListBLL.png, id=357, 508.14844pt x 476.53032pt>
 File: images/PlayListBLL.png Graphic file (type png)
 <use images/PlayListBLL.png>
-Package pdftex.def Info: images/PlayListBLL.png  used on input line 787.
-(pdftex.def)             Requested size: 334.60422pt x 296.0326pt.
+Package pdftex.def Info: images/PlayListBLL.png  used on input line 815.
+(pdftex.def)             Requested size: 334.60422pt x 313.79112pt.
+
+
+LaTeX Warning: Float too large for page by 8.91943pt on input line 817.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 791.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 819.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
-[24 <./images/artistBLL.png> <./images/PlayListBLL.png>]
-<images/PLDetailBLL.png, id=299, 519.44063pt x 294.34969pt>
-File: images/PLDetailBLL.png Graphic file (type png)
-<use images/PLDetailBLL.png>
-Package pdftex.def Info: images/PLDetailBLL.png  used on input line 795.
-(pdftex.def)             Requested size: 334.60422pt x 189.6093pt.
-<images/TrackBLL.png, id=300, 499.11469pt x 385.44pt>
+[25 <./images/artistBLL.png> <./images/PlayListBLL.png>]
+<images/PlayListDetailBLL.png, id=366, 520.19344pt x 326.72063pt>
+File: images/PlayListDetailBLL.png Graphic file (type png)
+<use images/PlayListDetailBLL.png>
+Package pdftex.def Info: images/PlayListDetailBLL.png  used on input line 823.
+(pdftex.def)             Requested size: 334.60422pt x 210.15736pt.
+<images/TrackBLL.png, id=367, 499.11469pt x 385.44pt>
 File: images/TrackBLL.png Graphic file (type png)
 <use images/TrackBLL.png>
-Package pdftex.def Info: images/TrackBLL.png  used on input line 796.
+Package pdftex.def Info: images/TrackBLL.png  used on input line 824.
 (pdftex.def)             Requested size: 334.60422pt x 258.40225pt.
 
 
@@ -1424,28 +1433,287 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 799.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 827.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
-[25 <./images/PLDetailBLL.png> <./images/TrackBLL.png>]
-<images/UserBLL.png, id=309, 495.35063pt x 439.6425pt>
+[26 <./images/PlayListDetailBLL.png> <./images/TrackBLL.png>]
+<images/UserBLL.png, id=376, 494.59781pt x 721.94719pt>
 File: images/UserBLL.png Graphic file (type png)
 <use images/UserBLL.png>
-Package pdftex.def Info: images/UserBLL.png  used on input line 803.
-(pdftex.def)             Requested size: 334.60422pt x 296.97395pt.
+Package pdftex.def Info: images/UserBLL.png  used on input line 831.
+(pdftex.def)             Requested size: 334.60422pt x 488.40594pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 816.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 834.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [26
-
-
-
- <./images/UserBLL.png>]
+[27 <./images/UserBLL.png>]
+<images/socket-establishment.png, id=384, 380.42125pt x 374.39874pt>
+File: images/socket-establishment.png Graphic file (type png)
+<use images/socket-establishment.png>
+Package pdftex.def Info: images/socket-establishment.png  used on input line 862.
+(pdftex.def)             Requested size: 250.95476pt x 246.98967pt.
 File: images/logoITSGUsmall.png Graphic file (type png)
 <use images/logoITSGUsmall.png>
-Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 825.
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 869.
 (pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
- [27] 
+ [28
+
+
+
+
+ <./images/socket-establishment.png>]
+<images/Server-establishment.png, id=392, 484.05844pt x 394.47375pt>
+File: images/Server-establishment.png Graphic file (type png)
+<use images/Server-establishment.png>
+Package pdftex.def Info: images/Server-establishment.png  used on input line 874.
+(pdftex.def)             Requested size: 250.95476pt x 204.51357pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 883.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [29
+
+ <./images/Server-establishment.png>]
+<images/getSignal-server.png, id=400, 416.30531pt x 697.8572pt>
+File: images/getSignal-server.png Graphic file (type png)
+<use images/getSignal-server.png>
+Package pdftex.def Info: images/getSignal-server.png  used on input line 887.
+(pdftex.def)             Requested size: 292.77629pt x 490.8074pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 890.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [30 <./images/getSignal-server.png>]
+<images/checkLogin-Client.png, id=409, 469.755pt x 416.30531pt>
+File: images/checkLogin-Client.png Graphic file (type png)
+<use images/checkLogin-Client.png>
+Package pdftex.def Info: images/checkLogin-Client.png  used on input line 903.
+(pdftex.def)             Requested size: 292.77629pt x 259.45966pt.
+<images/sendDataUser-Server.png, id=410, 468.24937pt x 118.94438pt>
+File: images/sendDataUser-Server.png Graphic file (type png)
+<use images/sendDataUser-Server.png>
+Package pdftex.def Info: images/sendDataUser-Server.png  used on input line 908.
+(pdftex.def)             Requested size: 292.77629pt x 74.37453pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 912.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [31
+
+
+ <./images/checkLogin-Client.png> <./images/sendDataUser-Server.png>]
+<images/resetPassword-client.png, id=420, 658.46pt x 443.6575pt>
+File: images/resetPassword-client.png Graphic file (type png)
+<use images/resetPassword-client.png>
+Package pdftex.def Info: images/resetPassword-client.png  used on input line 917.
+(pdftex.def)             Requested size: 209.12683pt x 140.90369pt.
+<images/resetPassword-server.png, id=421, 361.35pt x 223.58531pt>
+File: images/resetPassword-server.png Graphic file (type png)
+<use images/resetPassword-server.png>
+Package pdftex.def Info: images/resetPassword-server.png  used on input line 923.
+(pdftex.def)             Requested size: 209.12683pt x 129.3964pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 949.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [32
+
+ <./images/resetPassword-client.png> <./images/resetPassword-server.png>]
+<images/register-client.png, id=431, 623.32875pt x 394.47375pt>
+File: images/register-client.png Graphic file (type png)
+<use images/register-client.png>
+Package pdftex.def Info: images/register-client.png  used on input line 954.
+(pdftex.def)             Requested size: 250.95476pt x 158.81598pt.
+<images/register-server.png, id=432, 519.44063pt x 182.18062pt>
+File: images/register-server.png Graphic file (type png)
+<use images/register-server.png>
+Package pdftex.def Info: images/register-server.png  used on input line 959.
+(pdftex.def)             Requested size: 250.95476pt x 88.01556pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 987.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [33
+
+ <./images/register-client.png> <./images/register-server.png>]
+<images/getDataPlayListFromServer-Client.png, id=442, 741.77126pt x 690.58pt>
+File: images/getDataPlayListFromServer-Client.png Graphic file (type png)
+<use images/getDataPlayListFromServer-Client.png>
+Package pdftex.def Info: images/getDataPlayListFromServer-Client.png  used on input line 992.
+(pdftex.def)             Requested size: 209.12683pt x 194.68878pt.
+<images/sendDataPlayListWithUserId-Server.png, id=443, 423.08063pt x 242.40562pt>
+File: images/sendDataPlayListWithUserId-Server.png Graphic file (type png)
+<use images/sendDataPlayListWithUserId-Server.png>
+Package pdftex.def Info: images/sendDataPlayListWithUserId-Server.png  used on input line 997.
+(pdftex.def)             Requested size: 250.95476pt x 143.78372pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1019.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [34
+
+ <./images/getDataPlayListFromServer-Client.png> <./images/sendDataPlayListWithUserId-Server.png>]
+
+Package hyperref Warning: bookmark level for unknown subsubsubsection defaults to 0.
+
+<images/login.png, id=453, 503.8825pt x 814.04124pt>
+File: images/login.png Graphic file (type png)
+<use images/login.png>
+Package pdftex.def Info: images/login.png  used on input line 1030.
+(pdftex.def)             Requested size: 250.95476pt x 405.42969pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1036.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+[35
+
+ <./images/login.png (PNG copy)>]
+<images/signup.png, id=460, 254.45062pt x 412.54124pt>
+File: images/signup.png Graphic file (type png)
+<use images/signup.png>
+Package pdftex.def Info: images/signup.png  used on input line 1043.
+(pdftex.def)             Requested size: 167.2989pt x 271.252pt.
+<images/resetPassword.png, id=461, 285.065pt x 73.27374pt>
+File: images/resetPassword.png Graphic file (type png)
+<use images/resetPassword.png>
+Package pdftex.def Info: images/resetPassword.png  used on input line 1051.
+(pdftex.def)             Requested size: 250.95476pt x 64.50566pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1055.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [36
+
+ <./images/signup.png> <./images/resetPassword.png>]
+
+Package hyperref Warning: Difference (3) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1058.
+
+<images/MainUI-User.png, id=472, 529.98pt x 399.74344pt>
+File: images/MainUI-User.png Graphic file (type png)
+<use images/MainUI-User.png>
+Package pdftex.def Info: images/MainUI-User.png  used on input line 1062.
+(pdftex.def)             Requested size: 334.60422pt x 252.38255pt.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1068.
+
+<images/search.png, id=473, 187.45032pt x 26.34843pt>
+File: images/search.png Graphic file (type png)
+<use images/search.png>
+Package pdftex.def Info: images/search.png  used on input line 1072.
+(pdftex.def)             Requested size: 334.60422pt x 47.03552pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1076.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+[37
+
+ <./images/MainUI-User.png> <./images/search.png>]
+<images/UIaftersearching.png, id=483, 528.47438pt x 398.99063pt>
+File: images/UIaftersearching.png Graphic file (type png)
+<use images/UIaftersearching.png>
+Package pdftex.def Info: images/UIaftersearching.png  used on input line 1080.
+(pdftex.def)             Requested size: 334.60422pt x 252.61957pt.
+<images/play-icon.png, id=484, 25.59563pt x 24.84282pt>
+File: images/play-icon.png Graphic file (type png)
+<use images/play-icon.png>
+Package pdftex.def Info: images/play-icon.png  used on input line 1087.
+(pdftex.def)             Requested size: 14.22636pt x 13.808pt.
+<images/pause-icon.png, id=485, 30.86531pt x 30.1125pt>
+File: images/pause-icon.png Graphic file (type png)
+<use images/pause-icon.png>
+Package pdftex.def Info: images/pause-icon.png  used on input line 1087.
+(pdftex.def)             Requested size: 14.22636pt x 13.87947pt.
+<images/nextsong-icon.png, id=486, 21.83156pt x 24.09pt>
+File: images/nextsong-icon.png Graphic file (type png)
+<use images/nextsong-icon.png>
+Package pdftex.def Info: images/nextsong-icon.png  used on input line 1087.
+(pdftex.def)             Requested size: 14.22636pt x 15.69836pt.
+<images/prevsong-icon.png, id=487, 24.84282pt x 24.09pt>
+File: images/prevsong-icon.png Graphic file (type png)
+<use images/prevsong-icon.png>
+Package pdftex.def Info: images/prevsong-icon.png  used on input line 1087.
+(pdftex.def)             Requested size: 14.22636pt x 13.79575pt.
+<images/volume-bar.png, id=488, 102.3825pt x 21.07875pt>
+File: images/volume-bar.png Graphic file (type png)
+<use images/volume-bar.png>
+Package pdftex.def Info: images/volume-bar.png  used on input line 1087.
+(pdftex.def)             Requested size: 28.45274pt x 5.85793pt.
+File: images/pause-icon.png Graphic file (type png)
+<use images/pause-icon.png>
+Package pdftex.def Info: images/pause-icon.png  used on input line 1091.
+(pdftex.def)             Requested size: 14.22636pt x 13.87947pt.
+<images/mainUicontrolMusic.png, id=489, 526.21594pt x 48.18pt>
+File: images/mainUicontrolMusic.png Graphic file (type png)
+<use images/mainUicontrolMusic.png>
+Package pdftex.def Info: images/mainUicontrolMusic.png  used on input line 1094.
+(pdftex.def)             Requested size: 334.60422pt x 30.63731pt.
+<images/addplaylist-button.png, id=490, 87.32625pt x 31.61812pt>
+File: images/addplaylist-button.png Graphic file (type png)
+<use images/addplaylist-button.png>
+Package pdftex.def Info: images/addplaylist-button.png  used on input line 1098.
+(pdftex.def)             Requested size: 28.45274pt x 10.3018pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1102.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [38
+
+ <./images/UIaftersearching.png> <./images/play-icon.png> <./images/pause-icon.png> <./images/nextsong-icon.png> <./images/prevsong-icon.png> <./images/volume-bar.png> <./images/mainUicontrolMusic.png> <./images/addplaylist-button.png>]
+<images/newplaylist.png, id=506, 188.95593pt x 70.01157pt>
+File: images/newplaylist.png Graphic file (type png)
+<use images/newplaylist.png>
+Package pdftex.def Info: images/newplaylist.png  used on input line 1107.
+(pdftex.def)             Requested size: 167.2989pt x 61.98746pt.
+<images/playlistdetailUI.png, id=507, 528.47438pt x 400.49625pt>
+File: images/playlistdetailUI.png Graphic file (type png)
+<use images/playlistdetailUI.png>
+Package pdftex.def Info: images/playlistdetailUI.png  used on input line 1114.
+(pdftex.def)             Requested size: 334.60422pt x 253.57285pt.
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1120.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [39
+
+ <./images/newplaylist.png> <./images/playlistdetailUI.png>]
+<images/showsongsinplaylist.png, id=517, 526.21594pt x 402.00188pt>
+File: images/showsongsinplaylist.png Graphic file (type png)
+<use images/showsongsinplaylist.png>
+Package pdftex.def Info: images/showsongsinplaylist.png  used on input line 1125.
+(pdftex.def)             Requested size: 334.60422pt x 255.63025pt.
+<images/admin-mainUI.png, id=518, 754.31813pt x 551.05875pt>
+File: images/admin-mainUI.png Graphic file (type png)
+<use images/admin-mainUI.png>
+Package pdftex.def Info: images/admin-mainUI.png  used on input line 1134.
+(pdftex.def)             Requested size: 376.42575pt x 274.99054pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1138.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+[40
+
+ <./images/showsongsinplaylist.png>]
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1138.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [41 <./images/admin-mainUI.png>]
+File: images/logoITSGUsmall.png Graphic file (type png)
+<use images/logoITSGUsmall.png>
+Package pdftex.def Info: images/logoITSGUsmall.png  used on input line 1148.
+(pdftex.def)             Requested size: 22.7534pt x 22.7534pt.
+ [42
+
+] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (report.aux)
  ***********
@@ -1453,20 +1721,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 4C80DBDD72AF83F5AA50B7DEF8FA7E43;3448.
+(rerunfilecheck)             Checksum: BAF63DD7E6600B8C6919C29B03253C71;5958.
  ) 
 Here is how much of TeX's memory you used:
- 28397 strings out of 474370
- 525730 string characters out of 5756951
- 1939754 words of memory out of 5000000
- 50202 multiletter control sequences out of 15000+600000
- 572609 words of font info for 62 fonts, out of 8000000 for 9000
+ 28654 strings out of 474370
+ 533268 string characters out of 5756951
+ 1942754 words of memory out of 5000000
+ 50410 multiletter control sequences out of 15000+600000
+ 571628 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,25n,115p,696b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,24n,115p,696b,720s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/MikTex/fonts/type1/vntex/vnr/vnbx10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnbx12.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnr8.pfb><D:/MikTex/fonts/type1/vntex/vnr/vnti10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt10.pfb><D:/MikTex/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on report.pdf (28 pages, 1467614 bytes).
+Output written on report.pdf (43 pages, 2593073 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 606 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 525 words of extra memory for PDF output out of 10000 (max. 10000000)
 

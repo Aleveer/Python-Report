@@ -125,10 +125,10 @@
 			~~                                                                    \\
 			\hline
 			\\
-			\multicolumn{1}{l}{\textbf{{\Large Phát triển}}}                      \\
+			\multicolumn{1}{l}{\textbf{{\Large Xây dựng phần mềm}}}               \\
 			\\
 
-			\textbf{{\Huge Ứng dụng nghe nhạc trên PYTHON}}                       \\
+			\textbf{{\Large HarmonyHub - Ứng dụng nghe nhạc trên PYTHON}}         \\
 			\\
 			\hline
 		\end{tabular}
@@ -486,7 +486,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	-Chúng ta có sơ đồ cơ sở dữ liệu như sau:
 	\begin{figure}[h]
 		\begin{center}
-			\includegraphics[width=\textwidth]{images/Hình6-Database.jpg}
+			\includegraphics[width=\textwidth]{images/Hình4-DB.png}
 			\caption{Sơ đồ cơ sở dữ liệu cho ứng dụng nghe nhạc}
 		\end{center}
 	\end{figure}
@@ -557,6 +557,9 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	\centering
 	\includegraphics[width=\textwidth]{images/PlaylistDAL-1.png}
 \end{figure}
+\clearpage
+
+\newpage
 \begin{figure}
 	\includegraphics[width=\textwidth]{images/PlaylistDAL-2.png}
 	\caption{Code cho class PlaylistDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
@@ -574,6 +577,16 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 			      -Sau đó, ta sẽ tạo 1 cursor để thực hiện các thao tác truy vấn dữ liệu.
 
 			      -Cuối cùng, ta sẽ thực hiện truy vấn dữ liệu và trả về kết quả lưu về records
+		      \end{flushleft}
+		\item Phương thức \textbf{getPlaylistIDByUserID(self, userID)} trả về danh sách playlist dựa vào id của user.
+		      \begin{flushleft}
+			      +Chi tiết hơn:
+
+			      -Đầu tiên, ta sẽ thiết lập kết nối đến cơ sở dữ liệu.
+
+			      -Sau đó, ta sẽ tạo 1 cursor để thực hiện các thao tác truy vấn dữ liệu và lấy ra toàn bộ playlist dựa vào id của user.
+
+			      -Cuối cùng, ta sẽ thực hiện truy vấn dữ liệu và trả về kết quả lưu về records (trong trường hợp này, ta sẽ truy vấn dữ liệu dựa vào id của user).
 		      \end{flushleft}
 		\item Phương thức \textbf{getDataPlayListFromUserId(self, userID)} trả về thông tin chi tiết của một playlist dựa vào id.
 		      \begin{flushleft}
@@ -723,7 +736,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{images/trackDAl.png}
+	\includegraphics[width=\textwidth]{images/TrackDAL.png}
 	\caption{Code cho class TrackDAL gồm các phương thức CRUD (Create, Read, Update, Delete)}
 \end{figure}
 \clearpage
@@ -734,6 +747,21 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 		\item Phương thức \textbf{getAllData(self)} trả về danh sách tất cả các bài hát trong cơ sở dữ liệu.
 
 		\item Phương thức \textbf{generateTrackID(self)} tạo một ID duy nhất cho bài hát mới.
+		      \begin{flushleft}
+			      +Chi tiết hơn:
+
+			      -Đầu tiên, ta sẽ thiết lập kết nối đến cơ sở dữ liệu.
+
+			      -Sau đó, ta sẽ tạo 1 cursor từ kết nối này để thực hiện các thao tác truy vấn dữ liệu.
+
+			      -Ta thực hiện câu lệnh SQL để lấy ID cao nhất (mới nhất) từ bảng track.
+
+			      -Chúng ta lấy kết quả ở dòng đầu tiên của câu lệnh truy vấn. Nếu kết quả tồn tại (tức là bảng không trống), ta lấy ID này, loại bỏ ký tự đầu tiên (giả sử là 'T'), chuyển phần còn lại thành số và cộng thêm một để tạo ID mới.
+
+			      -Nếu kết quả không tồn tại (tức là bảng trống), ta sẽ bắt đầu với ID là 1.
+
+			      -Cuối cùng, ta trả về ID mới này dưới dạng chuỗi, thêm tiền tố 'T' và đảm bảo rằng nó có độ dài 4 ký tự bằng cách thêm các số 0 vào đầu.
+		      \end{flushleft}
 
 		\item Phương thức \textbf{insert(self, track\_dto)} thêm một bài hát mới vào cơ sở dữ liệu.
 
@@ -792,7 +820,7 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 \newpage
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{images/PLDetailBLL.png}
+	\includegraphics[width=0.8\textwidth]{images/PlayListDetailBLL.png}
 	\includegraphics[width=0.8\textwidth]{images/TrackBLL.png}
 	\caption{Code cho class PLDetailBLL, TrackBLL gồm các phương thức xử lý logic}
 \end{figure}
@@ -803,16 +831,311 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	\includegraphics[width=0.8\textwidth]{images/UserBLL.png}
 	\caption{Code cho class UserBLL gồm các phương thức xử lý logic}
 \end{figure}
+\clearpage
+\newpage
 \begin{flushleft}
 	-Sau khi hoàn thành việc thiết lập các phương thức xử lý tại các tầng BLL và DAL,
 	chúng ta sẽ tiếp tục tạo các lớp (class) tại tầng GUI (Graphical User Interface). Mục đích của việc này là để thực hiện các thao tác giao diện cho ứng dụng.
 
 	-Đồng thời, chúng ta sẽ sử dụng thư viện Tkinter để tạo giao diện cho ứng dụng.
-	Thư viện Pygame.mixer sẽ được sử dụng để phát nhạc trong ứng dụng.
+
+	-Thư viện PIL (Python Imaging Library) sẽ được sử dụng để hiển thị hình ảnh trong ứng dụng.
+
+	-Thư viện Pygame.mixer sẽ được sử dụng để phát nhạc trong ứng dụng.
+
+	-Thư viện mutagen sẽ được sử dụng để lấy thông tin về file nhạc như tên bài hát, tên nghệ sĩ, và album.
 
 	-Ngoài ra, chúng ta cũng sẽ sử dụng thư viện socket để tạo kết nối giữa client và server.
 	Điều này giúp cho việc truyền dữ liệu giữa client và server trở nên dễ dàng hơn.
+
+	\subsubsection{Thiết kế socket server và client và cài đặt vài chức năng cho ứng dụng nghe nhạc}
+	\begin{flushleft}
+		-Để tạo kết nối giữa client và server, chúng ta sẽ tạo một socket server và một socket client.
+
+		-Server sẽ lắng nghe các yêu cầu từ client và thực hiện các thao tác tương ứng.
+
+		-Client sẽ gửi các yêu cầu đến server và nhận kết quả trả về từ server.
+
+		-Chúng ta sẽ tuân theo mô hình client-server để tạo kết nối giữa client và server như sau:
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.6\textwidth]{images/socket-establishment.png}
+			\caption{Thiết kế socket server và client cho ứng dụng nghe nhạc}
+		\end{figure}
+
+		-Trước tiên, chúng ta sẽ mở một cổng kết nối trên server và lắng nghe các yêu cầu từ client.
+	\end{flushleft}
 \end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{images/Server-establishment.png}
+		\caption{Code server gồm phương thức khởi tạo và chạy server}
+	\end{figure}
+	+Giải thích:
+
+	-Phương thức \textbf{init(self)} khởi tạo server, gán ip và port, thiết lập kết nối đến cơ sở dữ liệu thông qua class ConnectDB.
+
+	-Phương thức \textbf{run(self)} chạy server, lắng nghe các yêu cầu từ client và thực hiện các thao tác tương ứng.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/getSignal-server.png}
+	\caption{Code server-side phương thức lấy phản hồi từ client}
+\end{figure}
+\clearpage
+\newpage
+\begin{flushleft}
+	-Ví dụ:
+
+	+Ở chức năng đăng nhập tài khoản, khi client gửi yêu cầu đến server, server sẽ kiểm tra thông tin đăng nhập của user và trả về kết quả cho client.
+
+	+Server sẽ gọi xuống cơ sở dữ liệu để kiểm tra thông tin đăng nhập của user và trả về kết quả cho server.
+
+	+Server sẽ trả về kết quả cho client và client sẽ hiển thị thông báo tương ứng với kết quả đó.
+	+Tương tự như vậy với các hàm khác như Reset Password, Register, Send PlayList, Send Track, Send Album, Send Artist, \dots
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\textwidth]{images/checkLogin-Client.png}
+		\caption{Code cho client-side phương thức kiểm tra thông tin đăng nhập của user ở client-side}
+	\end{figure}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\textwidth]{images/sendDataUser-Server.png}
+		\caption{Code cho server-side phương thức kiểm tra thông tin đăng nhập của user ở server-side}
+	\end{figure}
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\textwidth]{images/resetPassword-client.png}
+		\caption{Code cho client-side xử lý đặt lại mật khẩu của user và gửi yêu cầu đến server-side}
+	\end{figure}
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\textwidth]{images/resetPassword-server.png}
+		\caption{Code cho server-side đặt lại mật khẩu của user và trả về kết quả cho client-side}
+	\end{figure}
+
+	-Giải thích:
+
+	Hàm resetPassword cho client:
+
+	+Đầu tiên, hàm tạo một socket mới và kết nối đến server thông qua IP và cổng đã cho.
+
+	+Sau đó, hàm tạo một chuỗi tin nhắn bằng cách nối chuỗi ``RESET\_PASSWORD'' với tên người dùng và mật khẩu mới, rồi gửi tin nhắn này đến Server.
+
+	+Nếu có lỗi xảy ra trong quá trình này (như timeout hoặc lỗi hệ thống), hàm sẽ in ra thông báo lỗi và trả về.
+
+	+Cuối cùng, hàm nhận thông báo từ server, chuyển đổi nó thành boolean và trả về. Thông báo này cho biết việc đặt lại mật khẩu có thành công hay không.
+
+	Hàm resetPassword cho server:
+
+	+Đầu tiên, hàm in ra thông báo “DANG GUI DU LIEU USER!!!” để cho biết rằng nó đang xử lý dữ liệu người dùng.
+
+	+Sau đó, hàm kiểm tra xem tên người dùng có tồn tại trong cơ sở dữ liệu hay không bằng cách gọi hàm UserBLL.checkUsername.
+
+	+Nếu tên người dùng tồn tại, hàm sẽ đặt lại mật khẩu bằng cách gọi hàm UserBLL.resetPassWord, gán cờ thành True và gửi cờ này đến client.
+
+	+Nếu tên người dùng không tồn tại, hàm sẽ gửi thông báo “Username is Wrong!!!” đến client và gán biến False.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{images/register-client.png}
+		\caption{Code cho client-side xử lý đăng ký tài khoản và gửi yêu cầu đến server-side}
+	\end{figure}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{images/register-server.png}
+		\caption{Code cho server-side xử lý đăng ký tài khoản và trả về kết quả cho client-side}
+	\end{figure}
+
+	-Giải thích:
+
+	-Hàm Register cho client:
+
+	+Đầu tiên, hàm tạo một socket mới và kết nối đến server thông qua IP và cổng đã cho.
+
+	+Sau đó, hàm tạo một chuỗi tin nhắn bằng cách nối chuỗi “REGISTER” với tên người dùng, email và mật khẩu, rồi gửi tin nhắn này đến server.
+
+	+Nếu có lỗi xảy ra trong quá trình này (như timeout hoặc lỗi hệ thống), hàm sẽ in ra thông báo lỗi và trả về.
+
+	+Cuối cùng, hàm nhận thông báo từ server và trả về. Thông báo này cho biết việc đăng ký có thành công hay không.
+
+	-Hàm Register cho server:
+
+	+Đầu tiên, hàm tạo một ID người dùng mới bằng cách gọi hàm UserBLL.generateUserID\@.
+
+	+Sau đó, hàm tạo một đối tượng người dùng mới với ID người dùng, tên người dùng, email và mật khẩu.
+
+	+Hàm kiểm tra xem tên người dùng đã tồn tại trong cơ sở dữ liệu hay chưa bằng cách gọi hàm UserBLL.hasUsername.
+
+	+Nếu tên người dùng đã tồn tại, hàm sẽ gửi thông báo “Username already exists” đến client.
+
+	+Nếu người dùng chưa tồn tại, hàm sẽ thêm người dùng mới vào cơ sở dữ liệu qua gọi hàm UserBLL.insert, gửi thông báo “Register successfully” đến client và in thông báo này ra màn hình.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\textwidth]{images/getDataPlayListFromServer-Client.png}
+		\caption{Code cho client-side lấy danh sách playlist đến client-side qua user-id}
+	\end{figure}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{images/sendDataPlayListWithUserId-Server.png}
+		\caption{Code cho server-side gửi dữ liệu playlist đến client-side qua user-id}
+	\end{figure}
+
+	-Hàm getDataPlayListFromServer cho client:
+
+	+Đầu tiên, hàm tạo một socket mới và kết nối đến server thông qua IP và cổng đã cho.
+
+	+Sau đó, hàm tạo một chuỗi tin nhắn bằng cách nối chuỗi ``DATA\_PLAYLIST\_USERID'' với userID, rồi gửi tin nhắn này đến server.
+
+	+Nếu có lỗi xảy ra trong quá trình này (như timeout hoặc lỗi hệ thống), hàm sẽ in ra thông báo lỗi và trả về.
+
+	+Cuối cùng, hàm nhận dữ liệu từ server, giải mã dữ liệu này từ dạng JSON thành danh sách từ điển, và trả về danh sách này.
+
+	-Hàm sendDataPlaylistWithUserID cho server:
+
+	+Đầu tiên, hàm lấy dữ liệu playlist từ cơ sở dữ liệu bằng cách gọi hàm PlayListBLL.getDataPlaylistFromUserID\@.
+
+	+Sau đó, hàm chuyển đổi dữ liệu này từ dạng tuple thành từ điển\@, rồi chuyển đổi từ điển này thành chuỗi JSON\@.
+
+	+Cuối cùng, hàm gửi chuỗi JSON này đến client.
+\end{flushleft}
+\clearpage
+\newpage
+\subsubsection{Xây dựng giao diện và chức năng cho ứng dụng}
+\subsubsubsection{Đăng nhập}
+-Sau khi chúng ta đã hoàn thành thiết lập các chức năng cần thiết cho Server và Client để tạo kết nối giữa chúng,
+chúng ta sẽ tiến hành tạo giao diện cho ứng dụng và kết hợp các chức năng đã thiết lập ở trên vào giao diện.
+
+-Đầu tiên, chúng ta có giao diện đăng nhập cho ứng dụng:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/login.png}
+	\caption{Giao diện đăng nhập cho ứng dụng}
+\end{figure}
+
+-Ở đây chúng ta có 2 ô nhập liệu là username và password, và 3 nút chức năng là Login, Register và Reset Password.
+
+\clearpage
+\newpage
+\begin{flushleft}
+	\subsubsubsection{Đăng kí}
+	- Khi chúng ta bấm Sign Up, chúng ta sẽ chuyển sang giao diện đăng ký tài khoản như phía dưới:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.4\textwidth]{images/signup.png}
+		\caption{Giao diện đăng ký tài khoản cho ứng dụng}
+	\end{figure}
+
+	\subsubsubsection{Đặt lại mật khẩu}
+	- Khi chúng ta bấm Reset Password, chúng ta sẽ chuyển sang giao diện đặt lại mật khẩu như phía dưới:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\textwidth]{images/resetPassword.png}
+		\caption{Giao diện đặt lại mật khẩu cho ứng dụng}
+	\end{figure}
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\subsubsection{Trang chủ}
+	- Sau khi đăng nhập thành công, chúng ta sẽ chuyển sang giao diện chính của ứng dụng như phía dưới:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/MainUI-User.png}
+		\caption{Giao diện chính của ứng dụng sau khi đăng nhập thành công}
+	\end{figure}
+
+	-Ở đây chúng ta có 4 tab chính là Playlist, Albums, Artists và Tracks và nhiều nút chức năng khác như Play, Pause, Next, Previous, Volume, thêm bài hát vào Playlist \dots
+
+	\subsubsection{Tìm kiếm}
+	-Tìm kiếm ở đây là tìm kiếm theo tên bài hát, chúng ta chỉ cần nhập tên bài hát vào ô tìm kiếm và bấm nút Search để tìm kiếm.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/search.png}
+		\caption{Giao diện tìm kiếm bài hát theo tên}
+	\end{figure}
+\end{flushleft}
+\clearpage
+\newpage
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/UIaftersearching.png}
+	\caption{Kết quả tìm kiếm bài hát theo tên}
+\end{figure}
+\subsubsection{Nghe nhạc}
+\begin{flushleft}
+	- Để nghe nhạc, chúng ta chỉ cần chọn bài hát từ danh sách bài hát và bấm nút Play.
+
+	- Giao diện bài hát đang phát gồm các chức năng như Play\includegraphics[width=0.5cm]{images/play-icon.png}, Pause\includegraphics[width=0.5cm]{images/pause-icon.png}, Next\includegraphics[width=0.5cm]{images/nextsong-icon.png}, Previous\includegraphics[width=0.5cm]{images/prevsong-icon.png}, Volume\includegraphics[width=1cm]{images/volume-bar.png}, thêm bài hát vào Playlist \dots
+
+	- Giao diện chính để thao tác với bài hát đang phát:
+
+	- Để dừng nghe nhạc, chúng ta chỉ cần bấm nút tạm ngừng \includegraphics[width=0.5cm]{images/pause-icon.png}.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/mainUicontrolMusic.png}
+		\caption{Giao diện chính mỗi bài nhạc}
+	\end{figure}
+	\subsubsection{Playlist}
+	-Ngoài các thao tác với mỗi bài nhạc, chúng ta có thể thêm bài hát vào Playlist bằng cách chọn bài hát và bấm vào nút playlist\includegraphics[width=1cm]{images/addplaylist-button.png}.
+
+	-Sau khi bấm vào, nó sẽ hiện cửa sổ chọn Playlist để thêm bài hát vào Playlist đó.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.4\textwidth]{images/newplaylist.png}
+		\caption{Giao diện thêm bài hát vào Playlist}
+	\end{figure}
+
+	-Sau khi chọn Playlist, bài hát được chọn sẽ được thêm vào Playlist đó.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/playlistdetailUI.png}
+		\caption{Giao diện Playlist}
+	\end{figure}
+
+	-Ta nhấn đúp vào playlist để xem danh sách bài hát trong playlist đó.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/showsongsinplaylist.png}
+		\caption{Danh sách bài hát trong Playlist}
+	\end{figure}
+	\subsubsection{Cài đặt tài khoản cá nhân và đổi mật khẩu}
+	\subsubsection{Giao diện và chức năng cho Server}
+	\subsubsubsection{Quản lý nhạc}
+	-Hiển thị danh sách bài hát:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.9\textwidth]{images/admin-mainUI.png}
+		\caption{Danh sách bài hát}
+	\end{figure}
+\end{flushleft}
+\clearpage
 \newpage
 \begin{thebibliography}{80}
 
