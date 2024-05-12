@@ -1129,20 +1129,302 @@ chúng ta sẽ tiến hành tạo giao diện cho ứng dụng và kết hợp c
 	\subsubsection{Giao diện và chức năng cho Server}
 	\subsubsubsection{Quản lý nhạc}
 	-Hiển thị danh sách bài hát:
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.9\textwidth]{images/admin-mainUI.png}
 		\caption{Danh sách bài hát}
 	\end{figure}
+	-Danh sách bài hát trong kho lưu trữ gồm id, tên bài hát, mã nghệ sĩ, mã album, thời lượng, và ngày phát hành.
+	\subsubsubsection{Thêm bài hát mới}
+	-Sau khi điền đẩy đủ các thông tin, chúng ta bấm nút Add để thêm bài hát mới vào kho lưu trữ.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.3\textwidth]{images/addnewsong.png}
+		\caption{Thêm bài hát mới}
+	\end{figure}
 \end{flushleft}
 \clearpage
 \newpage
-\begin{thebibliography}{80}
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\textwidth]{images/shownewsongadded.png}
+		\caption{Thêm bài hát mới thành công}
+	\end{figure}
+	-Sau khi thêm bài hát mới thành công, nó sẽ hiện ra trong danh sách bài hát và chúng ta kéo thả file nhạc vào thư mục SongList của Resource để thêm bài hát mới vào kho lưu trữ.
 
-	\bibitem{CVX}
-	CVX Introduction
-	``\textbf{link: http://cvxr.com/cvx/doc/intro.html/}'',
-	\textit{What is CVX}, lần truy cập cuối: 15/04/2017.
+	-Đổi tên thư mục ứng với ID của bài hát mới.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.2\textwidth]{images/song-resources.png}
+		\caption{Thêm bài hát mới vào thư mục SongList}
+	\end{figure}
+	\subsubsubsection{Chỉnh sửa bài hát}
+	-Để chỉnh sửa bài hát, chúng ta chọn bài hát cần chỉnh sửa và bấm nút Edit\includegraphics[width=1cm]{images/editbutton.png}. Sau khi chỉnh
+	các thông tin cần thiết, chúng ta bấm nút Save để lưu lại.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.4\textwidth]{images/editform.png}
+		\caption{Giao diện chỉnh sửa bài hát}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/beforeediting.png}
+		\caption{Thông tin bài hát trước khi chỉnh sửa}
+	\end{figure}
+	-Sau khi chỉnh sửa bài hát, nó sẽ hiện ra thông báo chỉnh sửa thành công.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/afterediting.png}
+		\caption{Thông tin bài hát sau khi chỉnh sửa}
+	\end{figure}
+	\subsubsubsection{Xóa bài hát}
+	-Để xóa bài hát, chúng ta chọn bài hát cần xóa và bấm nút Delete\includegraphics[width=1cm]{images/deletebutton.png}.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/afterdeleting.png}
+		\caption{Bài hát được chọn sau khi xóa (mã T0016)}
+	\end{figure}
+	\subsubsection{Quản lý danh sách Album}
+	-Hiển thị danh sách các Album trong cơ sở dữ liệu.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/albumlist.png}
+		\caption{Danh sách Album}
+	\end{figure}
+	-Danh sách được hiển thị gồm mã album, tên album, mã nghệ sĩ, thể loại và ngày phát hành.
+	\subsubsubsection{Thêm Album mới}
+	-Chúng ta bấm vào nút Add Albums\includegraphics[width=1cm]{images/addalbumsbutton.png} sau đó hệ thống sẽ hiện ra giao diện thêm Album mới.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.4\textwidth]{images/addnewalbumform.png}
+		\caption{Thêm Album mới}
+	\end{figure}
 
-\end{thebibliography}
+	-Chúng ta điền toàn bộ thông tin cần thiết sau đó bấm Submit để thêm Album mới vào cơ sở dữ liệu.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/afteraddingnewalbum.png}
+		\caption{Giao diện sau khi thêm Album mới thành công}
+	\end{figure}
+	\subsubsubsection{Chỉnh sửa Album}
+	-Để chỉnh sửa Album, chúng ta chọn Album cần chỉnh sửa và bấm nút Edit\includegraphics[width=1cm]{images/editAlbumbutton.png}.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/editalbumform.png}
+		\caption{Giao diện chỉnh sửa Album}
+	\end{figure}
+
+	-Sau khi chỉnh sửa xong các thông tin cần thay đổi, chúng ta bấm nút Save để lưu lại.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/aftereditalbum.png}
+		\caption{Giao diện sau khi chỉnh sửa Album}
+	\end{figure}
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\subsubsection{Quản lý thông tin nghệ sĩ}
+	\subsubsubsection{Hiển thị danh sách nghệ sĩ}
+	-Chúng ta bấm vào mục Artist để hiển thị danh sách nghệ sĩ.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/formartists.png}
+		\caption{Danh sách các nghệ sĩ}
+	\end{figure}
+
+	-Danh sách nghệ sĩ gồm mã nghệ sĩ, tên nghệ sĩ, và thể loại nhạc mà nghệ sĩ đó thể hiện.
+
+	\subsubsubsection{Thêm nghệ sĩ mới}
+	-Chúng ta bấm vào nút Add Artists\includegraphics[width=1cm]{images/addartists.png} để thêm nghệ sĩ mới.
+
+	-Sau đó, hệ thống sẽ hiển thị giao diện thêm nghệ sĩ mới.
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.3\textwidth]{images/addartistform.png}
+		\caption{Thêm nghệ sĩ mới}
+	\end{figure}
+	-Ta điền các thông tin cần thiết sau đó bấm Submit để thêm nghệ sĩ mới vào cơ sở dữ liệu.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/newartistafteradding.png}
+		\caption{Giao diện sau khi thêm nghệ sĩ mới thành công}
+	\end{figure}
+	\subsubsubsection{Chỉnh sửa thông tin nghệ sĩ}
+	-Để chỉnh sửa thông tin nghệ sĩ, chúng ta chọn nghệ sĩ cần chỉnh sửa và bấm nút Edit\includegraphics[width=1cm]{images/editbutton.png}.
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/editartistform.png}
+		\caption{Giao diện chỉnh sửa thông tin nghệ sĩ trước khi chỉnh sửa}
+	\end{figure}
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/aftereditingartist.png}
+		\caption{Giao diện chỉnh sửa thông tin nghệ sĩ sau khi chỉnh sửa}
+	\end{figure}
+
+	-Sau khi chỉnh sửa xong, ta thấy tên nghệ sĩ đã được thay đổi.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+
+	\subsubsection{Quản lý người dùng}
+	\subsubsubsection{Hiển thị danh sách người dùng}
+	-Chúng ta bấm vào mục User để hiển thị danh sách người dùng.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/formusers.png}
+		\caption{Danh sách người dùng}
+	\end{figure}
+
+	-Danh sách người dùng gồm mã người dùng, tên người dùng, email, và mật khẩu.
+
+	\subsubsubsection{Thêm người dùng mới}
+	-Chúng ta bấm vào nút Add Users\includegraphics[width=1cm]{images/adduserbtn.png} để thêm người dùng mới.
+
+	-Sau đó, hệ thống sẽ hiển thị giao diện thêm người dùng mới.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.3\textwidth]{images/addnewuser.png}
+		\caption{Thêm người dùng mới}
+	\end{figure}
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	-Ta điền các thông tin cần thiết sau đó bấm Submit để thêm người dùng mới vào cơ sở dữ liệu.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/afteraddingnewuser.png}
+		\caption{Giao diện sau khi thêm người dùng mới thành công}
+	\end{figure}
+
+	-Sau khi thêm người dùng mới thành công, hệ thống sẽ hiển thị thông báo thêm người dùng mới thành công và hiển thị người dùng mới trong danh sách người dùng.
+	\subsubsubsection{Chỉnh sửa thông tin người dùng}
+	-Để chỉnh sửa thông tin người dùng, chúng ta chọn người dùng cần chỉnh sửa và bấm nút Edit\includegraphics[width=1cm]{images/editbutton.png}.
+
+	-Lúc này hệ thống sẽ hiển thị giao diện chỉnh sửa thông tin người dùng. Giả sử ở đây ta chọn UserID = 0007
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\textwidth]{images/editUserForm.png}
+		\caption{Giao diện chỉnh sửa thông tin người dùng trước khi chỉnh sửa}
+	\end{figure}
+
+	-Sau khi chỉnh sửa xong, ta thấy thông tin người dùng đã được thay đổi ở email
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{images/aftereditinguser.png}
+		\caption{Giao diện chỉnh sửa thông tin người dùng sau khi chỉnh sửa}
+	\end{figure}
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\subsubsection{Khởi động server}
+	-Để khởi động server, chúng ta chỉ cần bấm vào nút Server Offline\includegraphics[width=2cm]{images/serveroffline.png}.
+
+	-Ngay lập tức, hệ thống sẽ chuyển nút Server Offline thành Server Online\includegraphics[width=2cm]{images/serveronline.png} tức server đã được khởi động.
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{images/serveronlineform.png}
+		\caption{Giao diện sau khi khởi động server}
+	\end{figure}
+	\subsubsection{Tắt server}
+	-Để tắt server, chúng ta chỉ cần bấm vào nút Server Online\includegraphics[width=2cm]{images/serveronline.png} và hệ thống sẽ chuyển nút Server Online thành Server Offline\includegraphics[width=2cm]{images/serveroffline.png} tức server đã được tắt.
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{images/serverofflineform.png}
+		\caption{Giao diện sau khi tắt server}
+	\end{figure}
+\end{flushleft}
+\clearpage
+\newpage
+\begin{flushleft}
+	\subsection{Kết luận}
+	\subsubsection{Ưu điểm}
+	\begin{itemize}
+		\item \textbf{Dễ sử dụng:} Ứng dụng nghe nhạc HarmonyHub cung cấp 2 ứng dụng con là App Server và App Client có giao diện thân thiện, dễ tương tác.
+		\item \textbf{Đa dạng chức năng:}
+		      \begin{description}
+			      \item[App Server:]
+			            \begin{itemize}
+				            \item Quản lý nhạc: giúp admin có thể quản lý nhạc trong hệ thống.
+				            \item Quản lý user: Xem được thông tin người dùng bên phía Client đăng ký vào hệ thống.
+				            \item Quản lý server: Khởi động/Tắt server linh hoạt đồng thời theo dõi hoạt động của Client.
+				            \item Quản lý Album: Quản lý các Album trong hệ thống.
+				            \item Quản lý nghệ sĩ: Quản lý thông tin nghệ sĩ trong hệ thống.
+			            \end{itemize}
+			      \item[App Client:]
+			            \begin{itemize}
+				            \item Nghe nhạc: các người dùng có thể nghe được các bài nhạc lưu trữ ở server mà không cần phải tải về.
+				            \item Tìm kiếm nhạc: Giúp người dùng tìm kiếm các bài hát theo yêu cầu.
+				            \item Thêm vào playlist: Người dùng có thể lưu trữ các bài hát yêu thích bằng cách thêm các bài hát vào danh sách playlist.
+				            \item Đăng ký tài khoản: Để có thể lưu các danh sách yêu thích người dùng cần đăng nhập vào ứng dụng với tài khoản đã đăng ký.
+			            \end{itemize}
+		      \end{description}
+		\item \textbf{Phản hồi nhanh:} Việc gửi/nhận dữ liệu của Client và Server nhanh chóng giúp tăng trải nghiệm của người dùng, dữ liệu nhạc được chia nhỏ và gửi liên tục để tránh thời gian chờ khi dữ liệu quá lớn.
+	\end{itemize}
+	\subsubsection{Nhược điểm}
+	\begin{itemize}
+		\item \textbf{Bảo mật:} Ứng dụng chưa có chức năng bảo mật dữ liệu, dữ liệu người dùng chưa được mã hóa khi gửi từ Client đến Server.
+		\item \textbf{Chưa hoàn thiện:} Ứng dụng còn nhiều chức năng chưa hoàn thiện, chưa có chức năng xóa bài hát, xóa Album, xóa nghệ sĩ, xóa người dùng.
+		\item \textbf{Giao diện:} Giao diện của ứng dụng còn đơn giản, chưa được tối ưu hóa cho người dùng.
+	\end{itemize}
+
+	\subsubsection{Hướng phát triển}
+	\begin{itemize}
+		\item \textbf{Bảo mật:} Cần phát triển chức năng bảo mật dữ liệu, mã hóa dữ liệu người dùng khi gửi từ Client đến Server. Admin có thể quản lý người dùng, phân quyền người dùng.
+		\item \textbf{Hoàn thiện:} Cần hoàn thiện các chức năng còn thiếu như xóa bài hát, xóa Album, xóa nghệ sĩ, xóa người dùng.
+		\item \textbf{Giao diện:} Cần tối ưu hóa giao diện cho người dùng, thêm các chức năng giúp người dùng dễ sử dụng hơn.
+	\end{itemize}
+\end{flushleft}
+% \clearpage
+% \newpage
+% \begin{thebibliography}{80}
+
+% 	\bibitem{CVX}
+% 	CVX Introduction
+% 	``\textbf{link: http://cvxr.com/cvx/doc/intro.html/}'',
+% 	\textit{What is CVX}, lần truy cập cuối: 15/04/2017.
+
+% \end{thebibliography}
 \end{document}
