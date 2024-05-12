@@ -416,26 +416,19 @@ Chính vì vậy, chúng em đã chọn đề tài "Phát triển ứng dụng n
 	-Tuy nhiên, ứng dụng nghe nhạc cũng có một số hạn chế như việc không thể tùy chỉnh giao diện của ứng dụng hoặc các danh sách phát quá nhiều.
 \end{flushleft}
 \subsubsection{Phân tích}
-\newpage
 \begin{table}[h]
 	\centering
 	\begin{tabular}{|l|p{10cm}|}
 		\hline
-		\textbf{Thư viện} & \textbf{Mô tả}                                                                                                                                                                                                                                                                                                                                                                                                                                                            \\
+		\textbf{Thư viện} & \textbf{Mô tả}                                                                                                                                                                                                                                                                                                                                                      \\
 		\hline
-		socket            & Thư viện socket trong Python cung cấp các hàm để tạo và quản lý kết nối mạng. Cho phép tạo ra các ứng dụng mạng phức tạp như truyền file, gửi và nhận dữ liệu qua mạng, và nhiều hơn nữa. Thư viện socket hỗ trợ các giao thức mạng phổ biến như TCP và UDP, cho phép lập trình viên tương tác với các máy chủ và thiết bị khác trên mạng. Bằng cách sử dụng thư viện socket, lập trình viên có thể xây dựng các ứng dụng mạng linh hoạt và mạnh mẽ trên nền tảng Python. \\
+		mysql.connector   & Thư viện mysql.connector trong Python cung cấp các hàm để tương tác với cơ sở dữ liệu MySQL. Cho phép tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với cơ sở dữ liệu, thực hiện các tác vụ như truy vấn, cập nhật, và quản lý dữ liệu. Thư viện mysql.connector giúp lập trình viên tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với cơ sở dữ liệu MySQL. \\
 		\hline
-		os                & Thư viện os trong Python cung cấp các hàm để tương tác với hệ điều hành. Cho phép thực hiện các tác vụ như quản lý file, thư mục, và các tác vụ liên quan đến hệ điều hành khác. Thư viện os giúp lập trình viên tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với hệ điều hành.                                                                                                                                                                                      \\
+		pygame            & Thư viện pygame trong Python cung cấp các hàm để tạo ra các ứng dụng đồ họa, bao gồm các trò chơi và các ứng dụng đa phương tiện khác. Tạo ra các ứng dụng có đồ họa mạnh mẽ, tương tác với người dùng qua các sự kiện đầu vào, và tạo ra các hiệu ứng âm thanh và hình ảnh. Thư viện pygame giúp lập trình viên tạo ra các ứng dụng đồ họa mạnh mẽ và tương tác.   \\
 		\hline
-		sys               & Thư viện sys trong Python cung cấp các hàm để tương tác với hệ thống Python. Cho phép truy cập vào các biến và hàm của hệ thống, quản lý luồng dữ liệu vào ra, và thực hiện các tác vụ liên quan đến hệ thống khác. Thư viện sys giúp lập trình viên tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với hệ thống Python.                                                                                                                                               \\
+		tkinter           & Thư viện tkenter trong Python cung cấp các hàm để tạo ra các ứng dụng đồ họa, các ứng dụng đa phương tiện khác. Tạo ra các ứng dụng có đồ họa mạnh mẽ, tương tác với người dùng qua các sự kiện đầu vào, và tạo ra các hiệu ứng âm thanh và hình ảnh.                                                                                                               \\
 		\hline
-		threading         & Thư viện threading trong Python cung cấp các hàm để tạo và quản lý các luồng. Cho phép tạo ra các ứng dụng đa luồng, tận dụng tối đa khả năng của CPU và tăng hiệu suất của ứng dụng. Thư viện threading giúp lập trình viên tạo ra các ứng dụng đa luồng mạnh mẽ và hiệu quả.                                                                                                                                                                                            \\
-		\hline
-		mysql.connector   & Thư viện mysql.connector trong Python cung cấp các hàm để tương tác với cơ sở dữ liệu MySQL. Cho phép tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với cơ sở dữ liệu, thực hiện các tác vụ như truy vấn, cập nhật, và quản lý dữ liệu. Thư viện mysql.connector giúp lập trình viên tạo ra các ứng dụng có khả năng tương tác mạnh mẽ với cơ sở dữ liệu MySQL.                                                                                                       \\
-		\hline
-		pygame            & Thư viện pygame trong Python cung cấp các hàm để tạo ra các ứng dụng đồ họa, bao gồm các trò chơi và các ứng dụng đa phương tiện khác. Tạo ra các ứng dụng có đồ họa mạnh mẽ, tương tác với người dùng qua các sự kiện đầu vào, và tạo ra các hiệu ứng âm thanh và hình ảnh. Thư viện pygame giúp lập trình viên tạo ra các ứng dụng đồ họa mạnh mẽ và tương tác.                                                                                                         \\
-		\hline
-		tkinter           & Thư viện tkenter trong Python cung cấp các hàm để tạo ra các ứng dụng đồ họa, các ứng dụng đa phương tiện khác. Tạo ra các ứng dụng có đồ họa mạnh mẽ, tương tác với người dùng qua các sự kiện đầu vào, và tạo ra các hiệu ứng âm thanh và hình ảnh.                                                                                                                                                                                                                     \\
+		PIL               & Thư viện PIL trong Python cung cấp các hàm để tạo ra các ứng dụng đồ họa, các ứng dụng đa phương tiện khác. Tạo ra các ứng dụng có đồ họa mạnh mẽ, tương tác với người dùng qua các sự kiện đầu vào, và tạo ra các hiệu ứng âm thanh và hình ảnh.                                                                                                                   \\
 		\hline
 	\end{tabular}
 	\caption{Các thư viện Python được sử dụng cho việc phát triển ứng dụng}

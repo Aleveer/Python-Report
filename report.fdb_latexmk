@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715506152.99881 "c:/Users/Admin/Desktop/Projects/Python-Report/report.tex" "report.pdf" "report" 1715506158.41329 0
+["pdflatex"] 1715508444.83462 "c:/Users/Admin/Desktop/Projects/Python-Report/report.tex" "report.pdf" "report" 1715508449.98775 0
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1715127948 91620 7a57a1f8766c3b0e3fb60c506b76c594 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1715041946 11548 ffce98a3bd30c3808a5095a2090a79a9 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1715137519 24223938 e1790f0df918ee9e769e8496fc1ffc6c ""
@@ -206,7 +206,7 @@
   "D:/MikTex/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "D:/MikTex/tex/latex/zref/zref-abspage.sty" 1695383086 2269 4fe6fb3396214c91f164d45faf9bec45 ""
   "D:/MikTex/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
-  "c:/Users/Admin/Desktop/Projects/Python-Report/report.tex" 1715506146 68000 97396a6a131868de7ef6ae58d9de59f6 ""
+  "c:/Users/Admin/Desktop/Projects/Python-Report/report.tex" 1715508438 65681 d15ba34ef4ab9de787c219c24f20e401 ""
   "images/AlbumBLL.png" 1715089034 52819 0328b74f4c8620ecd584535a7e92b532 ""
   "images/AlbumDTO.png" 1715060152 15264 e4eecb29f9622384f0f32221f95d32f1 ""
   "images/ArtistDTO.png" 1715060162 9763 ca969c1800159668d60fd87c15dabd29 ""
@@ -295,10 +295,10 @@
   "images/song-resources.png" 1715474520 5224 9225206186263ba36befa40d3c97f7c0 ""
   "images/userDAL.png" 1715086809 137740 428c28c6cd509af398fa6e5af2e63949 ""
   "images/volume-bar.png" 1715441373 739 9c7a36fe1ee398e28e57430802b94e29 ""
-  "report.aux" 1715506157 18869 eceed02010f8b41459db9dbbb9eefe8e "pdflatex"
-  "report.out" 1715506157 9099 eb69626d3310b1196f8f71a1ce32450d "pdflatex"
-  "report.tex" 1715506146 68000 97396a6a131868de7ef6ae58d9de59f6 ""
-  "report.toc" 1715506157 4984 6c016f933b09932d2c6590a201c55cf2 "pdflatex"
+  "report.aux" 1715508449 18867 4b41e06e5a39c01579aa4f8b79d18849 "pdflatex"
+  "report.out" 1715508449 9099 eb69626d3310b1196f8f71a1ce32450d "pdflatex"
+  "report.tex" 1715508438 65681 d15ba34ef4ab9de787c219c24f20e401 ""
+  "report.toc" 1715508449 4983 a278ec2de3c48b56ef83c85c5b3888d3 "pdflatex"
   (generated)
   "report.aux"
   "report.log"
